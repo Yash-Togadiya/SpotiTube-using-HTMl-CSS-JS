@@ -6,6 +6,9 @@ Yash Togadiya and Parth Vaghela
 Project Name:
 SpotiTube
 
+Project Type:
+Web Application
+
 Start Date:
 31/05/2022
 
