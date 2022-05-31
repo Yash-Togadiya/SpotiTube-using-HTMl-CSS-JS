@@ -1,7 +1,7 @@
 # SpotiTube
 
 Authors : 
-Yash Togadiya
+Yash Togadiya and
 Parth Vaghela
 
 Project Name:
