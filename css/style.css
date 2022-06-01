@@ -28,3 +28,36 @@ body {
 }
 
 /* Home CSS End */
+
+/* Explore CSS Start */
+
+.explore .row {
+    margin: 20px 0 !important;
+}
+
+.explore .mood-item {
+    border-left: 5px solid red !important;
+    border-radius: 5px !important;
+    padding: 10px !important;
+    margin: 10px 20px !important;
+    background-color: gray !important;
+}
+
+.explore .trending {
+    margin: 20px 0 !important;
+}
+
+.explore .trending-songs {
+    display: flex !important;
+}
+
+.explore .trending-songs img {
+    margin: 0 10px !important;
+    height: 100px !important;
+}
+
+.explore .trending-videos {
+    padding: 0 20px !important;
+}
+
+/* Explore CSS End */
