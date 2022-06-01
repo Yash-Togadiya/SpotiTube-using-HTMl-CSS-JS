@@ -1,0 +1,30 @@
+/* Body CSS Start */
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* Body CSS End */
+
+/* Header CSS Start */
+.navbar {
+    font-size: 1.5em !important;
+}
+
+.navbar-brand {
+    font-size: 1.5em !important;
+}
+
+/* Header CSS End */
+
+/* Home CSS Start */
+
+.home .card {
+    border: none !important;
+}
+
+.home .img-thumbnail {
+    border-radius: 10px !important;
+}
+
+/* Home CSS End */
