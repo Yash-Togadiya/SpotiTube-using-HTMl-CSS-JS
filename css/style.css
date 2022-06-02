@@ -9,10 +9,18 @@ body {
 /* Header CSS Start */
 .navbar {
     font-size: 1.5em !important;
+
 }
 
 .navbar-brand {
     font-size: 1.5em !important;
+}
+  
+.d-flex{
+    margin: 0 10px 0 0;
+}
+ #logout-btn{
+display:none;
 }
 
 /* Header CSS End */
