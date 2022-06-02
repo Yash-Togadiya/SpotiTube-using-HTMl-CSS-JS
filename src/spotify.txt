@@ -1,0 +1,43 @@
+Spotify Web Api Details :-
+
+->  Client ID:
+
+    729b932537ad445c9e15420f41a3f852
+
+->  Client Secret:
+
+    84015b08bda64553bb2d8ee46d5ec5ab
+
+->  Github Link:
+
+    https://github.com/sammy007-debug/How-to-use-Spotify-s-API-with-Javascript
+
+->  To select random key from object:
+
+    const obj = {
+                name: 'Tom',
+                country: 'Chile',
+                age: 30,
+            };
+
+    function getRandomProperty(obj) {
+        const keys = Object.keys(obj);
+
+        return keys[Math.floor(Math.random() * keys.length)];
+    }
+
+    document.getElementById("demo2").innerHTML = (getRandomProperty(obj));
+
+
+-> To generate random border color:
+
+    const random_hex_color_code = () => {
+            let n = (Math.random() * 0xfffff * 1000000).toString(16);
+            return '#' + n.slice(0, 6);
+        };
+
+    document.getElementById("demo").style.borderColor = random_hex_color_code();
+
+-> To generate random integer:
+
+    document.getElementById("demo").innerHTML = Math.floor(Math.random() * 10) + 1;
