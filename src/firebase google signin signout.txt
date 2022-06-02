@@ -1,14 +1,15 @@
 FIREBASE Auth Google:
   1.create new project
   2.authntication-> enable google auth method
-  3.register new web app in firebase project dashboard
+  3.register new web app in firebase project dashboard (project overview -> web(<>))
   4.copy firebase SDK(software development kit) -> a type of ready made code.
   5.Implement
 
   FIREBASE Auth: Google Implementation
-   some methods 
-     1.signInWithPopup(GoogleAuthProviderObj)
-     2.getRedirectResult()
-     3.
-     4.
-     5. 
+   some methods  :
+     1.signInWithPopup(GoogleAuthProviderObj)    -> for popup google authntication
+     2.getRedirectResult()   -> to redirect to login and log out button
+     3.onAuthStateChanged() -> check the user state (sign in/out)
+     4.signOut() -> this method for log out
+     
+npm install firebase
