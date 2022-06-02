@@ -44,7 +44,7 @@ body {
 }
 
 .explore .trending {
-    margin: 20px 0 !important;
+    margin: 20px 0 0 0 !important;
 }
 
 .explore .trending-songs {
@@ -61,3 +61,24 @@ body {
 }
 
 /* Explore CSS End */
+
+/* Library CSS Start */
+
+.library .history .row {
+    margin: 20px 0 !important;
+}
+
+.library .history-songs {
+    display: flex !important;
+}
+
+.library .history-songs img {
+    margin: 0 10px !important;
+    height: 100px !important;
+}
+
+.library .history-videos {
+    padding: 0 20px !important;
+}
+
+/* Library CSS End */
