@@ -15,12 +15,13 @@ body {
 .navbar-brand {
     font-size: 1.5em !important;
 }
-  
-.d-flex{
+
+.d-flex {
     margin: 0 10px 0 0;
 }
- #logout-btn{
-display:none;
+
+#logout-btn {
+    display: none;
 }
 
 /* Header CSS End */
@@ -39,8 +40,41 @@ display:none;
 
 /* Explore CSS Start */
 
-.explore .row {
-    margin: 20px 0 !important;
+.height {
+    height: auto;
+}
+
+.search {
+    position: relative;
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+}
+
+.search input {
+    height: 60px;
+    text-indent: 25px;
+    border: 2px solid #d6d4d4;
+}
+
+.search input:focus {
+    box-shadow: none;
+    border: 2px solid white;
+    box-shadow: 0 0 20px red
+}
+
+.search .fa-search {
+    position: absolute;
+    top: 20px;
+    left: 16px;
+}
+
+.search button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 50px;
+    width: 110px;
+    background: black;
+    color: white;
 }
 
 .explore .mood-item {
@@ -53,6 +87,10 @@ display:none;
 
 .explore .trending {
     margin: 20px 0 0 0 !important;
+}
+
+.explore .trending div {
+    margin: 10px 0 !important;
 }
 
 .explore .trending-songs {
