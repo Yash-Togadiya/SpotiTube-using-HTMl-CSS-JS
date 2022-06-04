@@ -1,3 +1,5 @@
+Summer Internship Project 2022 | Second Year Internship at Rao Information Technology
+
 # SpotiTube
 
 Authors : 
@@ -9,8 +11,10 @@ SpotiTube
 Project Type:
 Web Application
 
+Technology use:
+HTML,CSS,Bootstrap,Javascript and APIS
+
+Description: Spotitube WebApplication consists of audio and video player mix up
+
 Start Date:
 31/05/2022
-
-Description:
-Summer Internship Project 2022 | Second Year Internship at Rao Information Technology
