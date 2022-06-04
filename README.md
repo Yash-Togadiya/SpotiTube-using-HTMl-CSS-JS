@@ -11,7 +11,7 @@ SpotiTube
 Project Type:
 Web Application
 
-Technology use:
+Technology used:
 HTML,CSS,Bootstrap,Javascript and APIS
 
 Description: Spotitube WebApplication consists of audio and video player mix up
