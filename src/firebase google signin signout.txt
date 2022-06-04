@@ -11,5 +11,24 @@ FIREBASE Auth Google:
      2.getRedirectResult()   -> to redirect to login and log out button
      3.onAuthStateChanged() -> check the user state (sign in/out)
      4.signOut() -> this method for log out
-     
+
 npm install firebase
+
+Important Terminologies:
+
+  => initializeApp() method :
+  initializeApp creates and initializes a Firebase app instance.
+
+  => What is Firebase app instance?
+  Instance ID provides a unique identifier for each instance of your app and a mechanism to authenticate and authorize actions,
+  like sending messages via Firebase Cloud Messaging.
+  The InstanceID is long lived, but may expire for the following reasons: Device factory reset.
+
+  => getAuth() method :
+  GetAuth returns the FirebaseAuth object for an App. Creates the FirebaseAuth if required.
+
+  => Firebase :
+  FirebaseApp acts as a conduit for communication between all Firebase services used by an application.
+
+  => GoogleAuthProvider :
+  Returns a new instance of AuthCredential that wraps Google Sign-In ID or access tokens.

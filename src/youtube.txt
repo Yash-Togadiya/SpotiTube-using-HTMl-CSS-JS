@@ -1,0 +1,9 @@
+Youtube Web App details :-
+
+-> Link to get api endpoints:
+
+    https://developers.google.com/youtube/v3/docs
+
+-> Link for reference:
+
+    https://youtu.be/EAyo3_zJj5c
