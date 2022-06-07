@@ -26,6 +26,34 @@ body {
 
 /* Header CSS End */
 
+/* MiniPlayer CSS Start */
+
+#miniPlayer>div {
+    display: flex;
+    position: fixed;
+    bottom: 20px;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    padding: 0 20px;
+    border-radius: 10px;
+    background-color: darkgray;
+    z-index: 3;
+}
+
+#miniPlayer img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+#miniPlayer>div>div {
+    margin: 0 50px;
+}
+
+/* MiniPlayer CSS End */
+
 /* Home CSS Start */
 
 .home .card {
@@ -34,6 +62,8 @@ body {
 
 .home .img-thumbnail {
     border-radius: 10px !important;
+    height: 200px;
+    width: 200px;
 }
 
 /* Home CSS End */

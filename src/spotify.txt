@@ -8,6 +8,10 @@ Spotify Web Api Details :-
 
     84015b08bda64553bb2d8ee46d5ec5ab
 
+-> Link to get endpoints:
+
+    https://developer.spotify.com/documentation/web-api/reference/#/
+
 ->  Github Link:
 
     https://github.com/sammy007-debug/How-to-use-Spotify-s-API-with-Javascript
