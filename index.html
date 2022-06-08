@@ -10,6 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="./src/audio/audiodetails.js"></script>
+    <script src="./src/video/videoDetails.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
@@ -22,8 +23,6 @@
 
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
-
 
 </head>
 
@@ -71,6 +70,7 @@
     <main>
 
         <div id="miniPlayer"></div>
+        <div id="videoPlayer"></div>
 
         <!-- Home Section Start -->
         <section class="home bg-dark text-light" id="home">
@@ -99,25 +99,25 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="card col-sm-2 m-4 bg-dark">
-                        <img src="./src/images/video.jpg" alt="video" class="img-thumbnail">
-                        <h4 class="my-3 mx-auto">Title</h4>
+                    <div class="card col-sm-2 m-4 bg-dark" onclick="playVideo(0)">
+                        <img src="./src/video/Chaand Ne Kaho - Lyrical.jpg" alt="video" class="img-thumbnail">
+                        <h4 class="my-3 mx-auto">Chaand Ne Kaho</h4>
                     </div>
-                    <div class="card col-sm-2 m-4 bg-dark">
-                        <img src="./src/images/video.jpg" alt="video" class="img-thumbnail">
-                        <h4 class="my-3 mx-auto">Title</h4>
+                    <div class="card col-sm-2 m-4 bg-dark" onclick="playVideo(1)">
+                        <img src="./src/video/Mast Nazron Se.jpg" alt="video" class="img-thumbnail">
+                        <h4 class="my-3 mx-auto">Mast Nazron Se</h4>
                     </div>
-                    <div class="card col-sm-2 m-4 bg-dark">
-                        <img src="./src/images/video.jpg" alt="video" class="img-thumbnail">
-                        <h4 class="my-3 mx-auto">Title</h4>
+                    <div class="card col-sm-2 m-4 bg-dark" onclick="playVideo(2)">
+                        <img src="./src/video/Ranjha.jpg" alt="video" class="img-thumbnail">
+                        <h4 class="my-3 mx-auto">Ranjha</h4>
                     </div>
-                    <div class="card col-sm-2 m-4 bg-dark">
-                        <img src="./src/images/video.jpg" alt="video" class="img-thumbnail">
-                        <h4 class="my-3 mx-auto">Title</h4>
+                    <div class="card col-sm-2 m-4 bg-dark" onclick="playVideo(3)">
+                        <img src="./src/video/Maiyya Mainu.jpg" alt="video" class="img-thumbnail">
+                        <h4 class="my-3 mx-auto">Maiyya Mainu</h4>
                     </div>
-                    <div class="card col-sm-2 m-4 bg-dark">
-                        <img src="./src/images/video.jpg" alt="video" class="img-thumbnail">
-                        <h4 class="my-3 mx-auto">Title</h4>
+                    <div class="card col-sm-2 m-4 bg-dark" onclick="playVideo(4)">
+                        <img src="./src/video/Kaun Tujhe.jpg" alt="video" class="img-thumbnail">
+                        <h4 class="my-3 mx-auto">Kaun Tujhe</h4>
                     </div>
                 </div>
             </div>

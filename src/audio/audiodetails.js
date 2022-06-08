@@ -32,7 +32,7 @@ const audioDetails = [
 ];
 
 function miniPlayer(id) {
-    const miniPlayer = document.createElement("div");
+    const miniPlayer = document.getElementById("miniPlayer");
     miniPlayer.innerHTML = `
         <img src="` + audioDetails[id].img + `" alt="google">
         <div>
@@ -46,5 +46,6 @@ function miniPlayer(id) {
 
 function playAudio(id) {
     document.getElementById("miniPlayer").innerHTML = null;
+    document.getElementById("videoPlayer").innerHTML = null;
     miniPlayer(id);
 }

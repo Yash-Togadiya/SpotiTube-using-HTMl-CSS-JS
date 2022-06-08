@@ -28,7 +28,7 @@ body {
 
 /* MiniPlayer CSS Start */
 
-#miniPlayer>div {
+#miniPlayer {
     display: flex;
     position: fixed;
     bottom: 20px;
@@ -39,7 +39,7 @@ body {
     padding: 0 20px;
     border-radius: 10px;
     background-color: darkgray;
-    z-index: 3;
+    z-index: 2;
 }
 
 #miniPlayer img {
@@ -48,11 +48,22 @@ body {
     border-radius: 10px;
 }
 
-#miniPlayer>div>div {
+#miniPlayer>div {
     margin: 0 50px;
 }
 
 /* MiniPlayer CSS End */
+
+/* VideoPlayer CSS Start */
+
+#videoPlayer {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 2;
+}
+
+/* VideoPlayer CSS End */
 
 /* Home CSS Start */
 
