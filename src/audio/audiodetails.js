@@ -1,31 +1,41 @@
 const audioDetails = [
     {
-        img: "./src/audio/Pasoori.jpeg",
-        src: "./src/audio/Pasoori.mpeg",
+        // img: "./src/audio/Pasoori.jpeg",
+        img: "https://docs.google.com/uc?export=download&id=1wnFWq5-NGdLJZ7v_uRn5BQLjog54VWiv",
+        // src: "./src/audio/Pasoori.mpeg",
+        src: "https://docs.google.com/uc?export=download&id=1-kQ6lbYzk_oinqIe4hgL3UUx-Bz4Gcev",
         title: "Pasoori - coke studio",
         artist: "ali shethi , shae gill"
     },
     {
-        img: "./src/audio/Bhool Bhulaiyaa 2 Titlte Track.jpeg",
-        src: "./src/audio/Bhool Bhulaiyaa 2 Titlte Track.mpeg",
+        // img: "./src/audio/Bhool Bhulaiyaa 2 Title Track.jpeg",
+        img: "https://docs.google.com/uc?export=download&id=1xbpm2-mM_J0TaqNWThA7jStuuSHCt-Jr",
+        // src: "./src/audio/Bhool Bhulaiyaa 2 Tilte Track.mpeg",
+        src: "https://docs.google.com/uc?export=download&id=1Nqt5ncGH30g4Tnyjf2FTKHnlC5MyGfRN",
         title: "Bhool Bhulaiya 2 Title track",
         artist: "Neeraj Shridhar"
     },
     {
-        img: "./src/audio/Makhna.jpeg",
-        src: "./src/audio/Makhna.mpeg",
+        // img: "./src/audio/Makhna.jpeg",
+        img: "https://docs.google.com/uc?export=download&id=1FGFtFkLdEeanZKp7BXuckEhl4lTWqliw",
+        // src: "./src/audio/Makhna.mpeg",
+        src: "https://docs.google.com/uc?export=download&id=1sUvTtLaPJyAR_3IeV8hWemTwEROpSvAa",
         title: "Makhna",
         artist: "Yaseer Desai , Tanishk bagchi, Asees Kaur"
     },
     {
-        img: "./src/audio/Naina da kya kasoor.jpeg",
-        src: "./src/audio/Naina da kya kasoor.mpeg",
+        // img: "./src/audio/Naina da kya kasoor.jpeg",
+        img: "https://docs.google.com/uc?export=download&id=1d183VU5MiGgtE5i-vbogEvKd8iaIWOGt",
+        // src: "./src/audio/Naina da kya kasoor.mpeg",
+        src: "https://docs.google.com/uc?export=download&id=1l0A7xpJID1pZ84idbegTwlrOvS21qOcV",
         title: "Naina Da Kya Kasoor",
         artist: "Ayushman Khuranaa"
     },
     {
-        img: "./src/audio/Senorita.jpeg",
-        src: "./src/audio/Senorita.mpeg",
+        // img: "./src/audio/Senorita.jpeg",
+        img: "https://docs.google.com/uc?export=download&id=1stuBTdBBLiEVXXD1m6llVa9GkgrlDpm_",
+        // src: "./src/audio/Senorita.mpeg",
+        src: "https://docs.google.com/uc?export=download&id=18dDbjlTqa5AvWH_txvy4dkvWNzXJEBZ1",
         title: "Senorita Zindgi na milegi dubaraa",
         artist: "María del Mar Fernández"
     }

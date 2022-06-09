@@ -1,31 +1,41 @@
 const videoDetails = [
     {
-        img: "./src/video/Chaand Ne Kaho - Lyrical.jpg",
-        src: "./src/video/Chaand Ne Kaho - Lyrical.mp4",
+        // img: "./src/video/Chaand Ne Kaho - Lyrical.jpg",
+        img: "https://docs.google.com/uc?export=download&id=1ASbkih_bVhA5C2Rvcn3Vozeyn4eyvARx",
+        // src: "./src/video/Chaand Ne Kaho - Lyrical.mp4",
+        src: "https://docs.google.com/uc?export=download&id=1Y5As4Xot-byjU9cNhpqSD8pPYGe9zzfX",
         title: "Chaand Ne Kaho - Lyrical",
         artist: "Sachin-Jigar, Jigardan"
     },
     {
-        img: "./src/video/Mast Nazron Se.jpg",
-        src: "./src/video/Mast Nazron Se.mp4",
+        // img: "./src/video/Mast Nazron Se.jpg",
+        img: "https://docs.google.com/uc?export=download&id=1ECwNup0UtlkbcDi_d8YXyd8xr56UNnkj",
+        // src: "./src/video/Mast Nazron Se.mp4",
+        src: "https://docs.google.com/uc?export=download&id=1NVmLeAb5iQEC8uanCFhGBbBYEgupSTq0",
         title: "Maast Nazron Se",
         artist: "Rochak K, ft Jubin Nautiyal, Nikita Dutta, Manoj M, Ashish P, Bhushan K"
     },
     {
-        img: "./src/video/Ranjha.jpg",
-        src: "./src/video/Ranjha.mp4",
+        // img: "./src/video/Ranjha.jpg",
+        img: "https://docs.google.com/uc?export=download&id=1L4H8rTqoTmHAVNCS3dQ-Te46itjeqO0K",
+        // src: "./src/video/Ranjha.mp4",
+        src: "https://docs.google.com/uc?export=download&id=141zAuWV3vsSi-pMY05kqfeJDD4SbQ8TM",
         title: "Ranjha",
         artist: "B Praak, Jasleen Royal, Romy, Anvita Dutt"
     },
     {
-        img: "./src/video/Maiyya Mainu.jpg",
-        src: "./src/video/Maiyya Mainu.mp4",
+        // img: "./src/video/Maiyya Mainu.jpg",
+        img: "https://docs.google.com/uc?export=download&id=1StPeeJZ0Df0OKDYsVGSGVJh0hqpmUk7P",
+        // src: "./src/video/Maiyya Mainu.mp4",
+        src: "https://docs.google.com/uc?export=download&id=19sJLhneh5QBzH8RiJ4JF6sljk6nnPQN0",
         title: "Maiyya Mainu",
         artist: "Sachet-Parampara, Shellee, Gowtam T"
     },
     {
-        img: "./src/video/Kaun Tujhe.jpg",
-        src: "./src/video/Kaun Tujhe.mp4",
+        // img: "./src/video/Kaun Tujhe.jpg",
+        img: "https://docs.google.com/uc?export=download&id=1YhNftg6sYX5OVFGKX81qcGQUpeJw5Pu6",
+        // src: "./src/video/Kaun Tujhe.mp4",
+        src: "https://docs.google.com/uc?export=download&id=1Lr4nFBNbHVwndfAziiEMr9SvbJP43fDH",
         title: "Kaun Tujhe",
         artist: "Arijit Singh"
     }
