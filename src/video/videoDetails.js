@@ -1,44 +1,176 @@
 const videoDetails = [
     {
-        // img: "./src/video/Chaand Ne Kaho - Lyrical.jpg",
-        img: "https://docs.google.com/uc?export=download&id=1ASbkih_bVhA5C2Rvcn3Vozeyn4eyvARx",
-        // src: "./src/video/Chaand Ne Kaho - Lyrical.mp4",
-        src: "https://docs.google.com/uc?export=download&id=1Y5As4Xot-byjU9cNhpqSD8pPYGe9zzfX",
+        // https://drive.google.com/file/d/1JwtHAQvSYR4kjrS1J9fGWsMZUMh9oCQC/view?usp=sharing
+        img: "https://docs.google.com/uc?export=download&id=1JwtHAQvSYR4kjrS1J9fGWsMZUMh9oCQC",
+        // https://drive.google.com/file/d/1bfjzEpbRyF5IYD8S-1ItUpJLDHzdBoEn/view?usp=sharing
+        src: "https://docs.google.com/uc?export=download&id=1bfjzEpbRyF5IYD8S-1ItUpJLDHzdBoEn",
+        title: "Baarish Ban Jaana",
+        artist: "Stebin Ben, Payal Dev"
+    },
+    {
+        // https://drive.google.com/file/d/1lZwMH70STny9KkWYMgAuxIo7_h-6uhCg/view?usp=sharing
+        img: "https://docs.google.com/uc?export=download&id=1lZwMH70STny9KkWYMgAuxIo7_h-6uhCg",
+        // https://drive.google.com/file/d/17UFCPwLxeEJL4piuthOv2rPYKF0b4XQN/view?usp=sharing
+        src: "https://docs.google.com/uc?export=download&id=17UFCPwLxeEJL4piuthOv2rPYKF0b4XQN",
+        title: "Badri Ki Dulhania - Title Track",
+        artist: "Monali Thakur, Dev Negi, Ikka Singh, Neha Kakkar"
+    },
+    {
+        // https://drive.google.com/file/d/1Kq1zmZv15NfLc651qnpVEwDktZ2l406h/view?usp=sharing
+        img: "https://docs.google.com/uc?export=download&id=1Kq1zmZv15NfLc651qnpVEwDktZ2l406h",
+        // https://drive.google.com/file/d/1xkFuKEylJsLl_QWjJ5enT5pVQUrWypJr/view?usp=sharing
+        src: "https://docs.google.com/uc?export=download&id=1xkFuKEylJsLl_QWjJ5enT5pVQUrWypJr",
+        title: "Blue Eyes",
+        artist: "Yo Yo Honey Singh"
+    },
+    {
+        // https://drive.google.com/file/d/1DocZVxKODzM1glpBhnomHhlF57lfMqaa/view?usp=sharing
+        img: "https://docs.google.com/uc?export=download&id=1DocZVxKODzM1glpBhnomHhlF57lfMqaa",
+        // https://drive.google.com/file/d/1GBKXyExjez9A3E9_uiKeU6n3HxtqI0Uo/view?usp=sharing
+        src: "https://docs.google.com/uc?export=download&id=1GBKXyExjez9A3E9_uiKeU6n3HxtqI0Uo",
         title: "Chaand Ne Kaho - Lyrical",
-        artist: "Sachin-Jigar, Jigardan"
+        artist: "Jigardan Gadhavi, Sachin–Jigar, Tanishkaa Sanghvi"
     },
     {
-        // img: "./src/video/Mast Nazron Se.jpg",
-        img: "https://docs.google.com/uc?export=download&id=1ECwNup0UtlkbcDi_d8YXyd8xr56UNnkj",
-        // src: "./src/video/Mast Nazron Se.mp4",
-        src: "https://docs.google.com/uc?export=download&id=1NVmLeAb5iQEC8uanCFhGBbBYEgupSTq0",
-        title: "Maast Nazron Se",
-        artist: "Rochak K, ft Jubin Nautiyal, Nikita Dutta, Manoj M, Ashish P, Bhushan K"
+        // https://drive.google.com/file/d/12zHl_fDIckfjn7iwEgMPku5Jf0avvwbx/view?usp=sharing
+        img: "https://docs.google.com/uc?export=download&id=12zHl_fDIckfjn7iwEgMPku5Jf0avvwbx",
+        // https://drive.google.com/file/d/12RQyyoTAkX5pHjhwZV0lbp0H6ZroVwX4/view?usp=sharing
+        src: "https://docs.google.com/uc?export=download&id=12RQyyoTAkX5pHjhwZV0lbp0H6ZroVwX4",
+        title: "Dheere Dheere Se Meri Zindagi",
+        artist: "Yo Yo Honet Singh"
     },
     {
-        // img: "./src/video/Ranjha.jpg",
-        img: "https://docs.google.com/uc?export=download&id=1L4H8rTqoTmHAVNCS3dQ-Te46itjeqO0K",
-        // src: "./src/video/Ranjha.mp4",
-        src: "https://docs.google.com/uc?export=download&id=141zAuWV3vsSi-pMY05kqfeJDD4SbQ8TM",
-        title: "Ranjha",
-        artist: "B Praak, Jasleen Royal, Romy, Anvita Dutt"
+        // https://drive.google.com/file/d/14GKEK-4gfuVRapfEsWoQ4TJ27CQeG1G8/view?usp=sharing
+        img: "https://docs.google.com/uc?export=download&id=14GKEK-4gfuVRapfEsWoQ4TJ27CQeG1G8",
+        // https://drive.google.com/file/d/1KFKbL4nPtRi4xlizdQYBqKiSD8IqdNLe/view?usp=sharing
+        src: "https://docs.google.com/uc?export=download&id=1KFKbL4nPtRi4xlizdQYBqKiSD8IqdNLe",
+        title: "Dhokha",
+        artist: "Arijit Singh"
     },
     {
-        // img: "./src/video/Maiyya Mainu.jpg",
-        img: "https://docs.google.com/uc?export=download&id=1StPeeJZ0Df0OKDYsVGSGVJh0hqpmUk7P",
-        // src: "./src/video/Maiyya Mainu.mp4",
-        src: "https://docs.google.com/uc?export=download&id=19sJLhneh5QBzH8RiJ4JF6sljk6nnPQN0",
-        title: "Maiyya Mainu",
-        artist: "Sachet-Parampara, Shellee, Gowtam T"
+        // https://drive.google.com/file/d/1byC9Tk53R__ByVJglGvUPA0yR3qojKKl/view?usp=sharing
+        img: "https://docs.google.com/uc?export=download&id=1byC9Tk53R__ByVJglGvUPA0yR3qojKKl",
+        // https://drive.google.com/file/d/1KTUDTfSw2cZpkm3fB0HHQDzjW0NTDX3G/view?usp=sharing
+        src: "https://docs.google.com/uc?export=download&id=1KTUDTfSw2cZpkm3fB0HHQDzjW0NTDX3G",
+        title: "Dil Galti Kar Baitha Hai",
+        artist: "Jubin Nautiyal"
     },
     {
-        // img: "./src/video/Kaun Tujhe.jpg",
-        img: "https://docs.google.com/uc?export=download&id=1YhNftg6sYX5OVFGKX81qcGQUpeJw5Pu6",
-        // src: "./src/video/Kaun Tujhe.mp4",
-        src: "https://docs.google.com/uc?export=download&id=1Lr4nFBNbHVwndfAziiEMr9SvbJP43fDH",
+        // https://drive.google.com/file/d/1m4MzVdwxl1IeFU0lY4Uk5hcuuVcX0imI/view?usp=sharing
+        img: "https://docs.google.com/uc?export=download&id=1m4MzVdwxl1IeFU0lY4Uk5hcuuVcX0imI",
+        // https://drive.google.com/file/d/1lgelU5huz9ADBge4iQyJRivjOlj9hTQk/view?usp=sharing
+        src: "https://docs.google.com/uc?export=download&id=1lgelU5huz9ADBge4iQyJRivjOlj9hTQk",
+        title: "Jugnu",
+        artist: "Badshah"
+    },
+    {
+        // https://drive.google.com/file/d/1NsYmI_5bGFRtxYNofwMG_ccw-uXZx7g_/view?usp=sharing
+        img: "https://docs.google.com/uc?export=download&id=1NsYmI_5bGFRtxYNofwMG_ccw-uXZx7g_",
+        // https://drive.google.com/file/d/1lgfSesfytjw7OseLBjai-dPaqon1GvDH/view?usp=sharing
+        src: "https://docs.google.com/uc?export=download&id=1lgfSesfytjw7OseLBjai-dPaqon1GvDH",
+        title: "Kaun Hain Voh",
+        artist: "Kailash Kher, Mounima"
+    },
+    {
+        // https://drive.google.com/file/d/19SLMNGXVG-nHEuexsCVRZbFOaBBMEhix/view?usp=sharing
+        img: "https://docs.google.com/uc?export=download&id=19SLMNGXVG-nHEuexsCVRZbFOaBBMEhix",
+        // https://drive.google.com/file/d/1Uga5SqCtdC1jvswIPw-F_U7YDqq_-zeY/view?usp=sharing
+        src: "https://docs.google.com/uc?export=download&id=1Uga5SqCtdC1jvswIPw-F_U7YDqq_-zeY",
         title: "Kaun Tujhe",
         artist: "Arijit Singh"
-    }
+    },
+    {
+        // https://drive.google.com/file/d/1eDytmZaNnZcanFPwTpjeJJh5s4qgJXAb/view?usp=sharing
+        img: "https://docs.google.com/uc?export=download&id=1eDytmZaNnZcanFPwTpjeJJh5s4qgJXAb",
+        // https://drive.google.com/file/d/1drnJBdVrhWhaAqenKkCdYuk2CV3VDbhX/view?usp=sharing
+        src: "https://docs.google.com/uc?export=download&id=1drnJBdVrhWhaAqenKkCdYuk2CV3VDbhX",
+        title: "Khalibali",
+        artist: "Shivam Pathak, Shail Hada"
+    },
+    {
+        // https://drive.google.com/file/d/1-Gx6y_1UrO28VMpg6QaySyQ5E9g-oBeU/view?usp=sharing
+        img: "https://docs.google.com/uc?export=download&id=1-Gx6y_1UrO28VMpg6QaySyQ5E9g-oBeU",
+        // https://drive.google.com/file/d/1DKiswDpSIJl09syZd4dH1C1KioYVqPiG/view?usp=sharing
+        src: "https://docs.google.com/uc?export=download&id=1DKiswDpSIJl09syZd4dH1C1KioYVqPiG",
+        title: "Khariyat",
+        artist: "Arijit Singh"
+    },
+    {
+        // https://drive.google.com/file/d/1e0fn5h0yvtoGwRtPgrbfdtPk5MlHWrzK/view?usp=sharing
+        img: "https://docs.google.com/uc?export=download&id=1e0fn5h0yvtoGwRtPgrbfdtPk5MlHWrzK",
+        //https://drive.google.com/file/d/1FUhOn5S779A-44fBX6daZWaYjKqYuv3E/view?usp=sharing
+        src: "https://docs.google.com/uc?export=download&id=1FUhOn5S779A-44fBX6daZWaYjKqYuv3E",
+        title: "Kusu Kusu",
+        artist: "Zahrah S Khan, Dev Negi"
+    },
+    {
+        // https://drive.google.com/file/d/1jiPXfte9iq3Uewj-wnFnXsIsUG9DYnXf/view?usp=sharing
+        img: "https://docs.google.com/uc?export=download&id=1jiPXfte9iq3Uewj-wnFnXsIsUG9DYnXf",
+        // https://drive.google.com/file/d/18xy1ZnMyZv2TxQu73-91J3DV1TiCFs6t/view?usp=sharing
+        src: "https://docs.google.com/uc?export=download&id=18xy1ZnMyZv2TxQu73-91J3DV1TiCFs6t",
+        title: "Maiyya Mainu",
+        artist: "Sachet–Parampara"
+    },
+    {
+        img: "https://docs.google.com/uc?export=download&id=",
+        src: "https://docs.google.com/uc?export=download&id=",
+        title: "",
+        artist: ""
+    },
+    {
+        img: "https://docs.google.com/uc?export=download&id=",
+        src: "https://docs.google.com/uc?export=download&id=",
+        title: "",
+        artist: ""
+    },
+    {
+        img: "https://docs.google.com/uc?export=download&id=",
+        src: "https://docs.google.com/uc?export=download&id=",
+        title: "",
+        artist: ""
+    },
+    {
+        img: "https://docs.google.com/uc?export=download&id=",
+        src: "https://docs.google.com/uc?export=download&id=",
+        title: "",
+        artist: ""
+    },
+    {
+        img: "https://docs.google.com/uc?export=download&id=",
+        src: "https://docs.google.com/uc?export=download&id=",
+        title: "",
+        artist: ""
+    },
+    {
+        img: "https://docs.google.com/uc?export=download&id=",
+        src: "https://docs.google.com/uc?export=download&id=",
+        title: "",
+        artist: ""
+    },
+    {
+        img: "https://docs.google.com/uc?export=download&id=",
+        src: "https://docs.google.com/uc?export=download&id=",
+        title: "",
+        artist: ""
+    },
+    {
+        img: "https://docs.google.com/uc?export=download&id=",
+        src: "https://docs.google.com/uc?export=download&id=",
+        title: "",
+        artist: ""
+    },
+    {
+        img: "https://docs.google.com/uc?export=download&id=",
+        src: "https://docs.google.com/uc?export=download&id=",
+        title: "",
+        artist: ""
+    },
+    {
+        img: "https://docs.google.com/uc?export=download&id=",
+        src: "https://docs.google.com/uc?export=download&id=",
+        title: "",
+        artist: ""
+    },
 ]
 
 function videoPlayer(id) {
