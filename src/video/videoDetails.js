@@ -1,5 +1,61 @@
 const videoDetails = [
     {
+        // https://drive.google.com/file/d/1DocZVxKODzM1glpBhnomHhlF57lfMqaa/view?usp=sharing
+        img: "https://docs.google.com/uc?export=download&id=1DocZVxKODzM1glpBhnomHhlF57lfMqaa",
+        // https://drive.google.com/file/d/1GBKXyExjez9A3E9_uiKeU6n3HxtqI0Uo/view?usp=sharing
+        src: "https://docs.google.com/uc?export=download&id=1GBKXyExjez9A3E9_uiKeU6n3HxtqI0Uo",
+        title: "Chaand Ne Kaho - Lyrical",
+        artist: "Jigardan Gadhavi, Sachin–Jigar, Tanishkaa Sanghvi"
+    },
+    {
+        // https://drive.google.com/file/d/1GB5ByS_gsV5l5O63NemyASbB_EtHYU7Y/view?usp=sharing
+        img: "https://docs.google.com/uc?export=download&id=1GB5ByS_gsV5l5O63NemyASbB_EtHYU7Y",
+        // https://drive.google.com/file/d/1ygw1eVeagKUoM5ExRiUp2oHqecSSfQBi/view?usp=sharing
+        src: "https://docs.google.com/uc?export=download&id=1ygw1eVeagKUoM5ExRiUp2oHqecSSfQBi",
+        title: "Mast Nazron Se",
+        artist: "Jubin Naytiyal"
+    },
+    {
+        // https://drive.google.com/file/d/1TY4DcqSwxKv4yUP_Pi6cAaL1NuLXUbbe/view?usp=sharing
+        img: "https://docs.google.com/uc?export=download&id=1TY4DcqSwxKv4yUP_Pi6cAaL1NuLXUbbe",
+        // https://drive.google.com/file/d/12kjONJEhhM_aXevTG8b5iXCnPH5dX6R-/view?usp=sharing
+        src: "https://docs.google.com/uc?export=download&id=12kjONJEhhM_aXevTG8b5iXCnPH5dX6R-",
+        title: "Ranjha",
+        artist: "B Praak, Anvita Dutt Guptan, Jasleen Royal, Romy"
+    },
+    {
+        // https://drive.google.com/file/d/1jiPXfte9iq3Uewj-wnFnXsIsUG9DYnXf/view?usp=sharing
+        img: "https://docs.google.com/uc?export=download&id=1jiPXfte9iq3Uewj-wnFnXsIsUG9DYnXf",
+        // https://drive.google.com/file/d/18xy1ZnMyZv2TxQu73-91J3DV1TiCFs6t/view?usp=sharing
+        src: "https://docs.google.com/uc?export=download&id=18xy1ZnMyZv2TxQu73-91J3DV1TiCFs6t",
+        title: "Maiyya Mainu",
+        artist: "Sachet–Parampara"
+    },
+    {
+        // https://drive.google.com/file/d/19SLMNGXVG-nHEuexsCVRZbFOaBBMEhix/view?usp=sharing
+        img: "https://docs.google.com/uc?export=download&id=19SLMNGXVG-nHEuexsCVRZbFOaBBMEhix",
+        // https://drive.google.com/file/d/1Uga5SqCtdC1jvswIPw-F_U7YDqq_-zeY/view?usp=sharing
+        src: "https://docs.google.com/uc?export=download&id=1Uga5SqCtdC1jvswIPw-F_U7YDqq_-zeY",
+        title: "Kaun Tujhe",
+        artist: "Arijit Singh"
+    },
+    {
+        // https://drive.google.com/file/d/1e0fn5h0yvtoGwRtPgrbfdtPk5MlHWrzK/view?usp=sharing
+        img: "https://docs.google.com/uc?export=download&id=1e0fn5h0yvtoGwRtPgrbfdtPk5MlHWrzK",
+        // https://drive.google.com/file/d/1FUhOn5S779A-44fBX6daZWaYjKqYuv3E/view?usp=sharing
+        src: "https://docs.google.com/uc?export=download&id=1FUhOn5S779A-44fBX6daZWaYjKqYuv3E",
+        title: "Kusu Kusu",
+        artist: "Zahrah S Khan, Dev Negi"
+    },
+    {
+        // https://drive.google.com/file/d/1Kq1zmZv15NfLc651qnpVEwDktZ2l406h/view?usp=sharing
+        img: "https://docs.google.com/uc?export=download&id=1Kq1zmZv15NfLc651qnpVEwDktZ2l406h",
+        // https://drive.google.com/file/d/1xkFuKEylJsLl_QWjJ5enT5pVQUrWypJr/view?usp=sharing
+        src: "https://docs.google.com/uc?export=download&id=1xkFuKEylJsLl_QWjJ5enT5pVQUrWypJr",
+        title: "Blue Eyes",
+        artist: "Yo Yo Honey Singh"
+    },
+    {
         // https://drive.google.com/file/d/1JwtHAQvSYR4kjrS1J9fGWsMZUMh9oCQC/view?usp=sharing
         img: "https://docs.google.com/uc?export=download&id=1JwtHAQvSYR4kjrS1J9fGWsMZUMh9oCQC",
         // https://drive.google.com/file/d/1bfjzEpbRyF5IYD8S-1ItUpJLDHzdBoEn/view?usp=sharing
@@ -14,22 +70,6 @@ const videoDetails = [
         src: "https://docs.google.com/uc?export=download&id=17UFCPwLxeEJL4piuthOv2rPYKF0b4XQN",
         title: "Badri Ki Dulhania - Title Track",
         artist: "Monali Thakur, Dev Negi, Ikka Singh, Neha Kakkar"
-    },
-    {
-        // https://drive.google.com/file/d/1Kq1zmZv15NfLc651qnpVEwDktZ2l406h/view?usp=sharing
-        img: "https://docs.google.com/uc?export=download&id=1Kq1zmZv15NfLc651qnpVEwDktZ2l406h",
-        // https://drive.google.com/file/d/1xkFuKEylJsLl_QWjJ5enT5pVQUrWypJr/view?usp=sharing
-        src: "https://docs.google.com/uc?export=download&id=1xkFuKEylJsLl_QWjJ5enT5pVQUrWypJr",
-        title: "Blue Eyes",
-        artist: "Yo Yo Honey Singh"
-    },
-    {
-        // https://drive.google.com/file/d/1DocZVxKODzM1glpBhnomHhlF57lfMqaa/view?usp=sharing
-        img: "https://docs.google.com/uc?export=download&id=1DocZVxKODzM1glpBhnomHhlF57lfMqaa",
-        // https://drive.google.com/file/d/1GBKXyExjez9A3E9_uiKeU6n3HxtqI0Uo/view?usp=sharing
-        src: "https://docs.google.com/uc?export=download&id=1GBKXyExjez9A3E9_uiKeU6n3HxtqI0Uo",
-        title: "Chaand Ne Kaho - Lyrical",
-        artist: "Jigardan Gadhavi, Sachin–Jigar, Tanishkaa Sanghvi"
     },
     {
         // https://drive.google.com/file/d/12zHl_fDIckfjn7iwEgMPku5Jf0avvwbx/view?usp=sharing
@@ -72,14 +112,6 @@ const videoDetails = [
         artist: "Kailash Kher, Mounima"
     },
     {
-        // https://drive.google.com/file/d/19SLMNGXVG-nHEuexsCVRZbFOaBBMEhix/view?usp=sharing
-        img: "https://docs.google.com/uc?export=download&id=19SLMNGXVG-nHEuexsCVRZbFOaBBMEhix",
-        // https://drive.google.com/file/d/1Uga5SqCtdC1jvswIPw-F_U7YDqq_-zeY/view?usp=sharing
-        src: "https://docs.google.com/uc?export=download&id=1Uga5SqCtdC1jvswIPw-F_U7YDqq_-zeY",
-        title: "Kaun Tujhe",
-        artist: "Arijit Singh"
-    },
-    {
         // https://drive.google.com/file/d/1eDytmZaNnZcanFPwTpjeJJh5s4qgJXAb/view?usp=sharing
         img: "https://docs.google.com/uc?export=download&id=1eDytmZaNnZcanFPwTpjeJJh5s4qgJXAb",
         // https://drive.google.com/file/d/1drnJBdVrhWhaAqenKkCdYuk2CV3VDbhX/view?usp=sharing
@@ -94,34 +126,6 @@ const videoDetails = [
         src: "https://docs.google.com/uc?export=download&id=1DKiswDpSIJl09syZd4dH1C1KioYVqPiG",
         title: "Khariyat",
         artist: "Arijit Singh"
-    },
-    {
-        // https://drive.google.com/file/d/1e0fn5h0yvtoGwRtPgrbfdtPk5MlHWrzK/view?usp=sharing
-        img: "https://docs.google.com/uc?export=download&id=1e0fn5h0yvtoGwRtPgrbfdtPk5MlHWrzK",
-        //https://drive.google.com/file/d/1FUhOn5S779A-44fBX6daZWaYjKqYuv3E/view?usp=sharing
-        src: "https://docs.google.com/uc?export=download&id=1FUhOn5S779A-44fBX6daZWaYjKqYuv3E",
-        title: "Kusu Kusu",
-        artist: "Zahrah S Khan, Dev Negi"
-    },
-    {
-        // https://drive.google.com/file/d/1jiPXfte9iq3Uewj-wnFnXsIsUG9DYnXf/view?usp=sharing
-        img: "https://docs.google.com/uc?export=download&id=1jiPXfte9iq3Uewj-wnFnXsIsUG9DYnXf",
-        // https://drive.google.com/file/d/18xy1ZnMyZv2TxQu73-91J3DV1TiCFs6t/view?usp=sharing
-        src: "https://docs.google.com/uc?export=download&id=18xy1ZnMyZv2TxQu73-91J3DV1TiCFs6t",
-        title: "Maiyya Mainu",
-        artist: "Sachet–Parampara"
-    },
-    {
-        img: "https://docs.google.com/uc?export=download&id=",
-        src: "https://docs.google.com/uc?export=download&id=",
-        title: "",
-        artist: ""
-    },
-    {
-        img: "https://docs.google.com/uc?export=download&id=",
-        src: "https://docs.google.com/uc?export=download&id=",
-        title: "",
-        artist: ""
     },
     {
         img: "https://docs.google.com/uc?export=download&id=",

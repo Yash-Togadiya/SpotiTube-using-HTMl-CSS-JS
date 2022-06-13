@@ -1,11 +1,43 @@
 const audioDetails = [
     {
+        // https://drive.google.com/file/d/1uQpwKTxKlrB4W58LPoHzyCopi1I_Y8f4/view?usp=sharing
+        img: "https://docs.google.com/uc?export=download&id=1uQpwKTxKlrB4W58LPoHzyCopi1I_Y8f4",
+        // https://drive.google.com/file/d/1eMrJ1kYJYH1My8coAMHLZKuTXu9Vs2Cc/view?usp=sharing
+        src: "https://docs.google.com/uc?export=download&id=1eMrJ1kYJYH1My8coAMHLZKuTXu9Vs2Cc",
+        title: "Pasoori",
+        artist: "Ali Sethy, Shae Gill"
+    },
+    {
         // https://drive.google.com/file/d/1CXSljSItoAggXUXhoVCba8Gcercuypua/view?usp=sharing
         img: "https://docs.google.com/uc?export=download&id=1CXSljSItoAggXUXhoVCba8Gcercuypua",
         // https://drive.google.com/file/d/1iD3Sq2m1tWcBMSREx6dRw0-fc5kr0E4y/view?usp=sharing
         src: "https://docs.google.com/uc?export=download&id=1iD3Sq2m1tWcBMSREx6dRw0-fc5kr0E4y",
         title: "Bhool Bhulaiyaa 2 - Title Track",
         artist: "Pritam Chakraborty, Tanishk Bagchi"
+    },
+    {
+        // https://drive.google.com/file/d/1Uj-63FzUd0IrnOJPNIcEEyn38gWFHV5G/view?usp=sharing
+        img: "https://docs.google.com/uc?export=download&id=1Uj-63FzUd0IrnOJPNIcEEyn38gWFHV5G",
+        // https://drive.google.com/file/d/1EO3x-i5ysXdFuMZ-xiCsmJWjFSWTVw54/view?usp=sharing
+        src: "https://docs.google.com/uc?export=download&id=1EO3x-i5ysXdFuMZ-xiCsmJWjFSWTVw54",
+        title: "Makhna",
+        artist: "Yasser Desai, Asees Kaur, Tanishk Bagchi"
+    },
+    {
+        // https://drive.google.com/file/d/1CRtwvkwQlfsnTbgtf-q9nF5rlKyOtueG/view?usp=sharing
+        img: "https://docs.google.com/uc?export=download&id=1CRtwvkwQlfsnTbgtf-q9nF5rlKyOtueG",
+        // https://drive.google.com/file/d/11RlvpCF4m85Y2CAOn0QWScz5ObxZH_4C/view?usp=sharing
+        src: "https://docs.google.com/uc?export=download&id=11RlvpCF4m85Y2CAOn0QWScz5ObxZH_4C",
+        title: "Naina Da Kya Kasoor",
+        artist: "Ayushman Khurana"
+    },
+    {
+        // https://drive.google.com/file/d/1r_Ph4hupW46YcdL_naZzS2lOPeh59J19/view?usp=sharing
+        img: "https://docs.google.com/uc?export=download&id=1r_Ph4hupW46YcdL_naZzS2lOPeh59J19",
+        // https://drive.google.com/file/d/1u5xYdRxOEPE4pSx8W33oJvoXbZQpCaDZ/view?usp=sharing
+        src: "https://docs.google.com/uc?export=download&id=1u5xYdRxOEPE4pSx8W33oJvoXbZQpCaDZ",
+        title: "Senorita",
+        artist: " María del Mar Fernández"
     },
     {
         // https://drive.google.com/file/d/1eRTPuuqvdKOyYuCaGWV3YOEVcGMVtgHP/view?usp=sharing
@@ -96,14 +128,6 @@ const audioDetails = [
         artist: "Arijit Singh, Shreya Ghoshal, Shankar-Ehsaan-Loy, Varun Grover"
     },
     {
-        // https://drive.google.com/file/d/1Uj-63FzUd0IrnOJPNIcEEyn38gWFHV5G/view?usp=sharing
-        img: "https://docs.google.com/uc?export=download&id=1Uj-63FzUd0IrnOJPNIcEEyn38gWFHV5G",
-        // https://drive.google.com/file/d/1EO3x-i5ysXdFuMZ-xiCsmJWjFSWTVw54/view?usp=sharing
-        src: "https://docs.google.com/uc?export=download&id=1EO3x-i5ysXdFuMZ-xiCsmJWjFSWTVw54",
-        title: "Makhna",
-        artist: "Yasser Desai, Asees Kaur, Tanishk Bagchi"
-    },
-    {
         // https://drive.google.com/file/d/1eUHychSYa55q0ysIP8DPGWwRMwVwBDNb/view?usp=sharing
         img: "https://docs.google.com/uc?export=download&id=1eUHychSYa55q0ysIP8DPGWwRMwVwBDNb",
         // https://drive.google.com/file/d/1ohwECeEo9DialIcrMtAGaZzLy98xxCCO/view?usp=sharing
@@ -112,28 +136,12 @@ const audioDetails = [
         artist: "Ananya Bhat, Ravi Basrur"
     },
     {
-        // https://drive.google.com/file/d/1CRtwvkwQlfsnTbgtf-q9nF5rlKyOtueG/view?usp=sharing
-        img: "https://docs.google.com/uc?export=download&id=1CRtwvkwQlfsnTbgtf-q9nF5rlKyOtueG",
-        // https://drive.google.com/file/d/11RlvpCF4m85Y2CAOn0QWScz5ObxZH_4C/view?usp=sharing
-        src: "https://docs.google.com/uc?export=download&id=11RlvpCF4m85Y2CAOn0QWScz5ObxZH_4C",
-        title: "Naina Da Kya Kasoor",
-        artist: "Ayushman Khurana"
-    },
-    {
         // https://drive.google.com/file/d/1WFNN03A649qWJezxbM4wR0KOaiFAby7g/view?usp=sharing
         img: "https://docs.google.com/uc?export=download&id=1WFNN03A649qWJezxbM4wR0KOaiFAby7g",
         // https://drive.google.com/file/d/1agyJghE1Rl1X4QG4xnHM49LvdJxNfGIQ/view?usp=sharing
         src: "https://docs.google.com/uc?export=download&id=1agyJghE1Rl1X4QG4xnHM49LvdJxNfGIQ",
         title: "Nikamma",
         artist: "Abhimanyu Dasani, Shirley Setia, Samir Soni, Mukesh Agrohari"
-    },
-    {
-        // https://drive.google.com/file/d/1uQpwKTxKlrB4W58LPoHzyCopi1I_Y8f4/view?usp=sharing
-        img: "https://docs.google.com/uc?export=download&id=1uQpwKTxKlrB4W58LPoHzyCopi1I_Y8f4",
-        // https://drive.google.com/file/d/1eMrJ1kYJYH1My8coAMHLZKuTXu9Vs2Cc/view?usp=sharing
-        src: "https://docs.google.com/uc?export=download&id=1eMrJ1kYJYH1My8coAMHLZKuTXu9Vs2Cc",
-        title: "Pasoori",
-        artist: "Ali Sethy, Shae Gill"
     },
     {
         // https://drive.google.com/file/d/1IEn92TGkVJ7-b7EFmt89AQMSb4WRKOyH/view?usp=sharing
@@ -158,14 +166,6 @@ const audioDetails = [
         src: "https://docs.google.com/uc?export=download&id=1v76IuVlQTkzLFj65I3bCCl_btzgMw4ke",
         title: "Rangisari",
         artist: "Kanishk Seth"
-    },
-    {
-        // https://drive.google.com/file/d/1r_Ph4hupW46YcdL_naZzS2lOPeh59J19/view?usp=sharing
-        img: "https://docs.google.com/uc?export=download&id=1r_Ph4hupW46YcdL_naZzS2lOPeh59J19",
-        // https://drive.google.com/file/d/1u5xYdRxOEPE4pSx8W33oJvoXbZQpCaDZ/view?usp=sharing
-        src: "https://docs.google.com/uc?export=download&id=1u5xYdRxOEPE4pSx8W33oJvoXbZQpCaDZ",
-        title: "Senorita",
-        artist: " María del Mar Fernández"
     },
     {
         // https://drive.google.com/file/d/1agohhRpiJlddtzIRdy9O-1sjRBdKmGio/view?usp=sharing
@@ -225,14 +225,25 @@ function miniPlayer(id) {
     // document.getElementById("miniPlayer").appendChild(miniPlayer)
 }
 
-function playAudio() {
+function playAudio(id) {
     document.getElementById("miniPlayer").innerHTML = null;
     document.getElementById("videoPlayer").innerHTML = null;
 
     let randonVar = Math.floor(Math.random() * 26);
-    miniPlayer(randonVar);
+    miniPlayer(id);
 }
 
 function closeMiniPlayer() {
     document.getElementById("miniPlayer").innerHTML = null;
 }
+
+
+// const fun1 = async () => {
+//     const c1 = await fetch("https://sheets.googleapis.com/v4/spreadsheets/1d5hdnrSavZGuHXHac5eHJK_Abqlc22YIH4fnGF1QhvQ/values/D3");
+
+//     const c2 = await c1.json();
+
+//     console.log(c2);
+// }
+
+// fun1();

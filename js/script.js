@@ -1,6 +1,7 @@
 
 // Import the functions you need from the SDKs you need
 
+
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.2/firebase-app.js";
 import { getDatabase, set, ref, update } from "https://www.gstatic.com/firebasejs/9.8.2/firebase-database.js";
 import { getAuth, signInWithRedirect, GoogleAuthProvider, signInWithPopup, createUserWithEmailAndPassword, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.8.2/firebase-auth.js";
@@ -23,21 +24,7 @@ const database = getDatabase(app);
 
 
 const provider = new GoogleAuthProvider(app);
-var emailid ;
-console.log(emailid);
-console.log(getElementById(signingoogle).innertext);
-
-if(emailid == null){
-  function authen() {
-    alert("page loaded successfulyy");
-    alert(" sign in first");
-    document.getElementById("body").style.display = "none";
-    window.location.href = "login.html";
-}
-var i =0;
-if(i ==0 && emailid == null){authen();i++;
-console.log(i);}
-// }
+var emailid;
 signingoogle.addEventListener('click', (e) => {
   /*popup google sign in suthentication */
 
@@ -50,22 +37,13 @@ signingoogle.addEventListener('click', (e) => {
       // The signed-in user info.
       const user = result.user;
       console.log(user);
-      localStorage.setItem("email", user.email);
-      let Email = localStorage.getItem("email");
-      
-      emailid  = Email;
       localStorage.setItem("displayname", user.displayName);
+      localStorage.setItem("displayname", user.email);
+ 
       let name = localStorage.getItem("displayname");
-      // var data = JSON.parse(user);
-      console.log(getElementById(signingoogle).innertext);
       console.log(name);
-      
       alert(name + " you have sign in successfully");
-      // var email = document.getElementById('email').value;
-      // let Name = document.getElementById('displayname').value;
-      // var email1 =localstorage.getItem('email');
-      // var name1 = localstorage.getItem('displayname');
-
+      
     }).catch((error) => {
       // Handle Errors here.
       const errorCode = error.code;
@@ -80,60 +58,60 @@ signingoogle.addEventListener('click', (e) => {
 
 
 
-  login.addEventListener('click', (e) => {
+  // login.addEventListener('click', (e) => {
 
-    var email = document.getElementById('email').value;
-    var password = document.getElementById('password').value;
-    var username = document.getElementById('username').value;
+  //   var email = document.getElementById('email').value;
+  //   var password = document.getElementById('password').value;
+  //   var username = document.getElementById('username').value;
 
-    createUserWithEmailAndPassword(auth, email, password)
-      .then((userCredential) => {
-        // Signed in
-        const user = userCredential.user;
+  //   createUserWithEmailAndPassword(auth, email, password)
+  //     .then((userCredential) => {
+  //       // Signed in
+  //       const user = userCredential.user;
 
-        set(ref(database, 'users/' + user.uid), {
-          username: username,
-          email: email
-        })
+  //       set(ref(database, 'users/' + user.uid), {
+  //         username: username,
+  //         email: email
+  //       })
 
-        alert('user created!');
-        // ...
-      })
-      .catch((error) => {
-        const errorCode = error.code;
-        const errorMessage = error.message;
+  //       alert('user created!');
+  //       // ...
+  //     })
+  //     .catch((error) => {
+  //       const errorCode = error.code;
+  //       const errorMessage = error.message;
 
-        alert(errorMessage);
-        // ..
-      });
+  //       alert(errorMessage);
+  //       // ..
+  //     });
 
-  });
+  // });
 
-  login.addEventListener('click', (e) => {
-    var email = document.getElementById('email').value;
-    var password = document.getElementById('password').value;
+  // login.addEventListener('click', (e) => {
+  //   var email = document.getElementById('email').value;
+  //   var password = document.getElementById('password').value;
 
-    signInWithEmailAndPassword(auth, email, password)
-      .then((userCredential) => {
-        // Signed in
-        const user = userCredential.user;
+  //   signInWithEmailAndPassword(auth, email, password)
+  //     .then((userCredential) => {
+  //       // Signed in
+  //       const user = userCredential.user;
 
-        const dt = new Date();
-        update(ref(database, 'users/' + user.uid), {
-          last_login: dt,
-        })
+  //       const dt = new Date();
+  //       update(ref(database, 'users/' + user.uid), {
+  //         last_login: dt,
+  //       })
 
-        alert('User loged in!');
-        // ...
-      })
-      .catch((error) => {
-        const errorCode = error.code;
-        const errorMessage = error.message;
+  //       alert('User loged in!');
+  //       // ...
+  //     })
+  //     .catch((error) => {
+  //       const errorCode = error.code;
+  //       const errorMessage = error.message;
 
-        alert(errorMessage);
-      });
+  //       alert(errorMessage);
+  //     });
 
-  });
+  // });
 
   const user = auth.currentUser;
   // onAuthStateChanged(auth, (user) => {
