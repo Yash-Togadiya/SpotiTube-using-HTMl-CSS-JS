@@ -1,3 +1,4 @@
+
 // Import the functions you need from the SDKs you need
 
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.2/firebase-app.js";
@@ -6,7 +7,6 @@ import { getAuth, signInWithRedirect, GoogleAuthProvider, signInWithPopup, creat
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
-// Your web app's Firebase configuratio
 const firebaseConfig = {
   apiKey: "AIzaSyD5fZnkHzSiYtq-TCCx3sZujzaE8NvPxBo",
   authDomain: "signin-trial02.firebaseapp.com",
@@ -21,34 +21,25 @@ const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const database = getDatabase(app);
 
+
 const provider = new GoogleAuthProvider(app);
+var emailid ;
+console.log(emailid);
+console.log(getElementById(signingoogle).innertext);
 
+if(emailid == null){
+  function authen() {
+    alert("page loaded successfulyy");
+    alert(" sign in first");
+    document.getElementById("body").style.display = "none";
+    window.location.href = "login.html";
+}
+var i =0;
+if(i ==0 && emailid == null){authen();i++;
+console.log(i);}
+// }
 signingoogle.addEventListener('click', (e) => {
-
-  /*  REDIRECTING TO a new page google sign in suthentication */
-  // signInWithRedirect(auth, provider);
-
-  //  getRedirectResult(auth)
-  //   .then((result) => {
-  //     // This gives you a Google Access Token. You can use it to access Google APIs.
-  //     const credential = GoogleAuthProvider.credentialFromResult(result);
-  //     const token = credential.accessToken;
-
-  //     // The signed-in user info.
-  //     const user = result.user;
-  //   }).catch((error) => {
-  //     // Handle Errors here.
-  //     const errorCode = error.code;
-  //     const errorMessage = error.message;
-  //     // The email of the user's account used.
-  //     const email = error.customData.email;
-  //     // The AuthCredential type that was used.
-  //     const credential = GoogleAuthProvider.credentialFromError(error);
-  //     // ...
-  //   });
-
   /*popup google sign in suthentication */
-
 
   const auth = getAuth();
   signInWithPopup(auth, provider)
@@ -58,7 +49,23 @@ signingoogle.addEventListener('click', (e) => {
       const token = credential.accessToken;
       // The signed-in user info.
       const user = result.user;
-      // ...
+      console.log(user);
+      localStorage.setItem("email", user.email);
+      let Email = localStorage.getItem("email");
+      
+      emailid  = Email;
+      localStorage.setItem("displayname", user.displayName);
+      let name = localStorage.getItem("displayname");
+      // var data = JSON.parse(user);
+      console.log(getElementById(signingoogle).innertext);
+      console.log(name);
+      
+      alert(name + " you have sign in successfully");
+      // var email = document.getElementById('email').value;
+      // let Name = document.getElementById('displayname').value;
+      // var email1 =localstorage.getItem('email');
+      // var name1 = localstorage.getItem('displayname');
+
     }).catch((error) => {
       // Handle Errors here.
       const errorCode = error.code;
@@ -69,6 +76,8 @@ signingoogle.addEventListener('click', (e) => {
       const credential = GoogleAuthProvider.credentialFromError(error);
       // ...
     });
+
+
 
 
   login.addEventListener('click', (e) => {
@@ -137,7 +146,7 @@ signingoogle.addEventListener('click', (e) => {
   //   } else {
   //     // User is signed out
   //     // ...
-  //     //bla bla bla
+  //     
   //   }
   // });
 

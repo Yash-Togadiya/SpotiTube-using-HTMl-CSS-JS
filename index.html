@@ -20,292 +20,295 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
-
+        <script src="./js/script.js" type="module"></script>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
 </head>
-
-<body>
-
-    <!-- Header Start -->
-    <header class="header" id="header">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">SpotiTube</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" id="nav-home" aria-current="page" href="#home">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="nav-explore" aria-current="page" href="#explore">Explore</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="nav-library" aria-current="page" href="#library">Library</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex">
-                        <a href="./Signin.html">
-                            <button class="btn btn-outline-light" id="signin" type="button">Sign in</button>
-                        </a>
-                    </form>
-                    <form class="d-flex">
-                        <a>
-                            <button class="btn btn-outline-light" id="logout-btn" type="button">Log out</button>
-                        </a>
-                    </form>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <!-- Header End -->
-
-    <!-- Main Section Start -->
-    <main>
-
-        <div id="miniPlayer"></div>
-        <div id="videoPlayer"></div>
-
-        <!-- Home Section Start -->
-        <section class="home bg-dark text-light" id="home">
-            <div class="container-fluid recommended-for-you p-5">
-                <h2>Recommended For You</h2>
-                <div class="row">
-                    <div class="card col-sm-2 m-4 bg-dark" onclick="playAudio()">
-                        <img src="./src/audio/Pasoori.jpeg" alt="img" class="img-thumbnail" id="song1">
-                        <h4 class="my-3">Pasoori</h4>
-                    </div>
-                    <div class="card col-sm-2 m-4 bg-dark" onclick="playAudio()">
-                        <img src="./src/audio/Bhool Bhulaiyaa 2 Titlte Track.jpeg" alt="img" class="img-thumbnail">
-                        <h4 class="my-3">Bhool Bhulaiya 2 Title Track</h4>
-                    </div>
-                    <div class="card col-sm-2 m-4 bg-dark" onclick="playAudio()">
-                        <img src="./src/audio/Makhna.jpeg" alt="img" class="img-thumbnail">
-                        <h4 class="my-3">Makhna</h4>
-                    </div>
-                    <div class="card col-sm-2 m-4 bg-dark" onclick="playAudio()">
-                        <img src="./src/audio/Naina da kya kasoor.jpeg" alt="img" class="img-thumbnail">
-                        <h4 class="my-3">Naina Da Kya Kasoor</h4>
-                    </div>
-                    <div class="card col-sm-2 m-4 bg-dark" onclick="playAudio()">
-                        <img src="./src/audio/Senorita.jpeg" alt="img" class="img-thumbnail">
-                        <h4 class="my-3">Senorita</h4>
+<body id="body" ><script>
+    // if(emailid == null){
+    //     function authen();       
+    //      }
+      </script>
+        <!-- Header Start -->
+        <header class="header" id="header">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">SpotiTube</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="nav-home" aria-current="page" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="nav-explore" aria-current="page" href="#explore">Explore</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="nav-library" aria-current="page" href="#library">Library</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <a>
+                                <button class="btn btn-outline-light" id="signingoogle" type="button">Sign in</button>
+                            </a>
+                        </form>
+                        <form class="d-flex">
+                            <a>
+                                <button class="btn btn-outline-light" id="logout-btn" type="button">Log out</button>
+                            </a>
+                        </form>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="card col-sm-2 m-4 bg-dark" onclick="playVideo(0)">
-                        <img src="./src/video/Chaand Ne Kaho - Lyrical.jpg" alt="video" class="img-thumbnail">
-                        <h4 class="my-3 mx-auto">Chaand Ne Kaho</h4>
+            </nav>
+        </header>
+        <!-- Header End -->
+
+        <!-- Main Section Start -->
+        <main>
+
+            <div id="miniPlayer"></div>
+            <div id="videoPlayer"></div>
+
+            <!-- Home Section Start -->
+            <section class="home bg-dark text-light" id="home">
+                <div class="container-fluid recommended-for-you p-5">
+                    <h2>Recommended For You</h2>
+                    <div class="row">
+                        <div class="card col-sm-2 m-4 bg-dark" onclick="playAudio()">
+                            <img src="./src/audio/Pasoori.jpeg" alt="img" class="img-thumbnail" id="song1">
+                            <h4 class="my-3">Pasoori</h4>
+                        </div>
+                        <div class="card col-sm-2 m-4 bg-dark" onclick="playAudio()">
+                            <img src="./src/audio/Bhool Bhulaiyaa 2 Titlte Track.jpeg" alt="img" class="img-thumbnail">
+                            <h4 class="my-3">Bhool Bhulaiya 2 Title Track</h4>
+                        </div>
+                        <div class="card col-sm-2 m-4 bg-dark" onclick="playAudio()">
+                            <img src="./src/audio/Makhna.jpeg" alt="img" class="img-thumbnail">
+                            <h4 class="my-3">Makhna</h4>
+                        </div>
+                        <div class="card col-sm-2 m-4 bg-dark" onclick="playAudio()">
+                            <img src="./src/audio/Naina da kya kasoor.jpeg" alt="img" class="img-thumbnail">
+                            <h4 class="my-3">Naina Da Kya Kasoor</h4>
+                        </div>
+                        <div class="card col-sm-2 m-4 bg-dark" onclick="playAudio()">
+                            <img src="./src/audio/Senorita.jpeg" alt="img" class="img-thumbnail">
+                            <h4 class="my-3">Senorita</h4>
+                        </div>
                     </div>
-                    <div class="card col-sm-2 m-4 bg-dark" onclick="playVideo(1)">
-                        <img src="./src/video/Mast Nazron Se.jpg" alt="video" class="img-thumbnail">
-                        <h4 class="my-3 mx-auto">Mast Nazron Se</h4>
-                    </div>
-                    <div class="card col-sm-2 m-4 bg-dark" onclick="playVideo(2)">
-                        <img src="./src/video/Ranjha.jpg" alt="video" class="img-thumbnail">
-                        <h4 class="my-3 mx-auto">Ranjha</h4>
-                    </div>
-                    <div class="card col-sm-2 m-4 bg-dark" onclick="playVideo(3)">
-                        <img src="./src/video/Maiyya Mainu.jpg" alt="video" class="img-thumbnail">
-                        <h4 class="my-3 mx-auto">Maiyya Mainu</h4>
-                    </div>
-                    <div class="card col-sm-2 m-4 bg-dark" onclick="playVideo(4)">
-                        <img src="./src/video/Kaun Tujhe.jpg" alt="video" class="img-thumbnail">
-                        <h4 class="my-3 mx-auto">Kaun Tujhe</h4>
+                    <div class="row">
+                        <div class="card col-sm-2 m-4 bg-dark" onclick="playVideo(0)">
+                            <img src="./src/video/Chaand Ne Kaho - Lyrical.jpg" alt="video" class="img-thumbnail">
+                            <h4 class="my-3 mx-auto">Chaand Ne Kaho</h4>
+                        </div>
+                        <div class="card col-sm-2 m-4 bg-dark" onclick="playVideo(1)">
+                            <img src="./src/video/Mast Nazron Se.jpg" alt="video" class="img-thumbnail">
+                            <h4 class="my-3 mx-auto">Mast Nazron Se</h4>
+                        </div>
+                        <div class="card col-sm-2 m-4 bg-dark" onclick="playVideo(2)">
+                            <img src="./src/video/Ranjha.jpg" alt="video" class="img-thumbnail">
+                            <h4 class="my-3 mx-auto">Ranjha</h4>
+                        </div>
+                        <div class="card col-sm-2 m-4 bg-dark" onclick="playVideo(3)">
+                            <img src="./src/video/Maiyya Mainu.jpg" alt="video" class="img-thumbnail">
+                            <h4 class="my-3 mx-auto">Maiyya Mainu</h4>
+                        </div>
+                        <div class="card col-sm-2 m-4 bg-dark" onclick="playVideo(4)">
+                            <img src="./src/video/Kaun Tujhe.jpg" alt="video" class="img-thumbnail">
+                            <h4 class="my-3 mx-auto">Kaun Tujhe</h4>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- Home section End -->
+            </section>
+            <!-- Home section End -->
 
-        <!-- Explore Section Start -->
+            <!-- Explore Section Start -->
 
-        <section class="explore bg-dark text-light" id="explore">
+            <section class="explore bg-dark text-light" id="explore">
 
-            <div class="container">
+                <div class="container">
 
-                <div class="row height d-flex justify-content-center align-items-center">
+                    <div class="row height d-flex justify-content-center align-items-center">
 
-                    <div class="col-md-8">
+                        <div class="col-md-8">
 
-                        <div class="search">
-                            <i class="fa fa-search"></i>
-                            <input type="text" class="form-control text-dark" placeholder="Search">
-                            <button class="btn btn-outline-dark">Search</button>
+                            <div class="search">
+                                <i class="fa fa-search"></i>
+                                <input type="text" class="form-control text-dark" placeholder="Search">
+                                <button class="btn btn-outline-dark">Search</button>
+                            </div>
+
                         </div>
 
                     </div>
 
                 </div>
 
-            </div>
-
-            <div class="container-fluid moods-and-genres p-5">
-                <h2>Moods and Genres</h2>
-                <div class="row">
-                    <div class="col-sm-2 mood-item mx-4">Mood</div>
-                    <div class="col-sm-2 mood-item mx-4">Mood</div>
-                    <div class="col-sm-2 mood-item mx-4">Mood</div>
-                    <div class="col-sm-2 mood-item mx-4">Mood</div>
-                    <div class="col-sm-2 mood-item mx-4">Mood</div>
-                    <!-- </div>
+                <div class="container-fluid moods-and-genres p-5">
+                    <h2>Moods and Genres</h2>
+                    <div class="row">
+                        <div class="col-sm-2 mood-item mx-4">Mood</div>
+                        <div class="col-sm-2 mood-item mx-4">Mood</div>
+                        <div class="col-sm-2 mood-item mx-4">Mood</div>
+                        <div class="col-sm-2 mood-item mx-4">Mood</div>
+                        <div class="col-sm-2 mood-item mx-4">Mood</div>
+                        <!-- </div>
                 <div class="row"> -->
-                    <div class="col-sm-2 mood-item mx-4">Mood</div>
-                    <div class="col-sm-2 mood-item mx-4">Mood</div>
-                    <div class="col-sm-2 mood-item mx-4">Mood</div>
-                    <div class="col-sm-2 mood-item mx-4">Mood</div>
-                    <div class="col-sm-2 mood-item mx-4">Mood</div>
-                    <!-- </div>
+                        <div class="col-sm-2 mood-item mx-4">Mood</div>
+                        <div class="col-sm-2 mood-item mx-4">Mood</div>
+                        <div class="col-sm-2 mood-item mx-4">Mood</div>
+                        <div class="col-sm-2 mood-item mx-4">Mood</div>
+                        <div class="col-sm-2 mood-item mx-4">Mood</div>
+                        <!-- </div>
                 <div class="row"> -->
-                    <div class="col-sm-2 mood-item mx-4">Mood</div>
-                    <div class="col-sm-2 mood-item mx-4">Mood</div>
-                    <div class="col-sm-2 mood-item mx-4">Mood</div>
-                    <div class="col-sm-2 mood-item mx-4">Mood</div>
-                    <div class="col-sm-2 mood-item mx-4">Mood</div>
-                </div>
-            </div>
-            <div class="container-fluid trending p-5">
-                <h2>Trending</h2>
-                <div class="row">
-                    <div class="trending-songs col-md-3">
-                        <img src="./src/images/music.jpg" alt="img">
-                        <div>
-                            <h5>Title</h5>
-                            <p>By : Singer(s) name</p>
-                        </div>
-                    </div>
-                    <div class="trending-songs col-md-3">
-                        <img src="./src/images/music.jpg" alt="img">
-                        <div>
-                            <h5>Title</h5>
-                            <p>By : Singer(s) name</p>
-                        </div>
-                    </div>
-                    <div class="trending-songs col-md-3">
-                        <img src="./src/images/music.jpg" alt="img">
-                        <div>
-                            <h5>Title</h5>
-                            <p>By : Singer(s) name</p>
-                        </div>
-                    </div>
-                    <div class="trending-songs col-md-3">
-                        <img src="./src/images/music.jpg" alt="img">
-                        <div>
-                            <h5>Title</h5>
-                            <p>By : Singer(s) name</p>
-                        </div>
+                        <div class="col-sm-2 mood-item mx-4">Mood</div>
+                        <div class="col-sm-2 mood-item mx-4">Mood</div>
+                        <div class="col-sm-2 mood-item mx-4">Mood</div>
+                        <div class="col-sm-2 mood-item mx-4">Mood</div>
+                        <div class="col-sm-2 mood-item mx-4">Mood</div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="trending-videos col-md-3">
-                        <img src="./src/images/video.jpg" alt="video">
-                        <h4 class="my-3 mx-auto">Title</h4>
-                        <p>By : Singer(s) name</p>
+                <div class="container-fluid trending p-5">
+                    <h2>Trending</h2>
+                    <div class="row">
+                        <div class="trending-songs col-md-3">
+                            <img src="./src/images/music.jpg" alt="img">
+                            <div>
+                                <h5>Title</h5>
+                                <p>By : Singer(s) name</p>
+                            </div>
+                        </div>
+                        <div class="trending-songs col-md-3">
+                            <img src="./src/images/music.jpg" alt="img">
+                            <div>
+                                <h5>Title</h5>
+                                <p>By : Singer(s) name</p>
+                            </div>
+                        </div>
+                        <div class="trending-songs col-md-3">
+                            <img src="./src/images/music.jpg" alt="img">
+                            <div>
+                                <h5>Title</h5>
+                                <p>By : Singer(s) name</p>
+                            </div>
+                        </div>
+                        <div class="trending-songs col-md-3">
+                            <img src="./src/images/music.jpg" alt="img">
+                            <div>
+                                <h5>Title</h5>
+                                <p>By : Singer(s) name</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="trending-videos col-md-3">
-                        <img src="./src/images/video.jpg" alt="video">
-                        <h4 class="my-3 mx-auto">Title</h4>
-                        <p>By : Singer(s) name</p>
-                    </div>
-                    <div class="trending-videos col-md-3">
-                        <img src="./src/images/video.jpg" alt="video">
-                        <h4 class="my-3 mx-auto">Title</h4>
-                        <p>By : Singer(s) name</p>
-                    </div>
-                    <div class="trending-videos col-md-3">
-                        <img src="./src/images/video.jpg" alt="video">
-                        <h4 class="my-3 mx-auto">Title</h4>
-                        <p>By : Singer(s) name</p>
+                    <div class="row">
+                        <div class="trending-videos col-md-3">
+                            <img src="./src/images/video.jpg" alt="video">
+                            <h4 class="my-3 mx-auto">Title</h4>
+                            <p>By : Singer(s) name</p>
+                        </div>
+                        <div class="trending-videos col-md-3">
+                            <img src="./src/images/video.jpg" alt="video">
+                            <h4 class="my-3 mx-auto">Title</h4>
+                            <p>By : Singer(s) name</p>
+                        </div>
+                        <div class="trending-videos col-md-3">
+                            <img src="./src/images/video.jpg" alt="video">
+                            <h4 class="my-3 mx-auto">Title</h4>
+                            <p>By : Singer(s) name</p>
+                        </div>
+                        <div class="trending-videos col-md-3">
+                            <img src="./src/images/video.jpg" alt="video">
+                            <h4 class="my-3 mx-auto">Title</h4>
+                            <p>By : Singer(s) name</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- Explore Section End -->
+            </section>
+            <!-- Explore Section End -->
 
-        <!-- Library Section Start -->
-        <section class="library bg-dark text-light" id="library">
-            <div class="container-fluid history p-5">
-                <h2>History</h2>
-                <div class="row">
-                    <div class="history-songs col-md-3">
-                        <img src="./src/images/music.jpg" alt="img">
-                        <div>
-                            <h5>Title</h5>
-                            <p>By : Singer(s) name</p>
+            <!-- Library Section Start -->
+            <section class="library bg-dark text-light" id="library">
+                <div class="container-fluid history p-5">
+                    <h2>History</h2>
+                    <div class="row">
+                        <div class="history-songs col-md-3">
+                            <img src="./src/images/music.jpg" alt="img">
+                            <div>
+                                <h5>Title</h5>
+                                <p>By : Singer(s) name</p>
+                            </div>
+                        </div>
+                        <div class="history-songs col-md-3">
+                            <img src="./src/images/music.jpg" alt="img">
+                            <div>
+                                <h5>Title</h5>
+                                <p>By : Singer(s) name</p>
+                            </div>
+                        </div>
+                        <div class="history-songs col-md-3">
+                            <img src="./src/images/music.jpg" alt="img">
+                            <div>
+                                <h5>Title</h5>
+                                <p>By : Singer(s) name</p>
+                            </div>
+                        </div>
+                        <div class="history-songs col-md-3">
+                            <img src="./src/images/music.jpg" alt="img">
+                            <div>
+                                <h5>Title</h5>
+                                <p>By : Singer(s) name</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="history-songs col-md-3">
-                        <img src="./src/images/music.jpg" alt="img">
-                        <div>
-                            <h5>Title</h5>
+                    <div class="row">
+                        <div class="history-videos col-md-3">
+                            <img src="./src/images/video.jpg" alt="video">
+                            <h4 class="my-3 mx-auto">Title</h4>
                             <p>By : Singer(s) name</p>
                         </div>
-                    </div>
-                    <div class="history-songs col-md-3">
-                        <img src="./src/images/music.jpg" alt="img">
-                        <div>
-                            <h5>Title</h5>
+                        <div class="history-videos col-md-3">
+                            <img src="./src/images/video.jpg" alt="video">
+                            <h4 class="my-3 mx-auto">Title</h4>
                             <p>By : Singer(s) name</p>
                         </div>
-                    </div>
-                    <div class="history-songs col-md-3">
-                        <img src="./src/images/music.jpg" alt="img">
-                        <div>
-                            <h5>Title</h5>
+                        <div class="history-videos col-md-3">
+                            <img src="./src/images/video.jpg" alt="video">
+                            <h4 class="my-3 mx-auto">Title</h4>
+                            <p>By : Singer(s) name</p>
+                        </div>
+                        <div class="history-videos col-md-3">
+                            <img src="./src/images/video.jpg" alt="video">
+                            <h4 class="my-3 mx-auto">Title</h4>
                             <p>By : Singer(s) name</p>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="history-videos col-md-3">
-                        <img src="./src/images/video.jpg" alt="video">
-                        <h4 class="my-3 mx-auto">Title</h4>
-                        <p>By : Singer(s) name</p>
-                    </div>
-                    <div class="history-videos col-md-3">
-                        <img src="./src/images/video.jpg" alt="video">
-                        <h4 class="my-3 mx-auto">Title</h4>
-                        <p>By : Singer(s) name</p>
-                    </div>
-                    <div class="history-videos col-md-3">
-                        <img src="./src/images/video.jpg" alt="video">
-                        <h4 class="my-3 mx-auto">Title</h4>
-                        <p>By : Singer(s) name</p>
-                    </div>
-                    <div class="history-videos col-md-3">
-                        <img src="./src/images/video.jpg" alt="video">
-                        <h4 class="my-3 mx-auto">Title</h4>
-                        <p>By : Singer(s) name</p>
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid p-5">
-                <h3>Playlists</h3>
-                <div class="row">
-                    <div class="card col-sm-2 m-4 bg-dark">
-                        <img src="./src/images/music.jpg" alt="img" class="img-thumbnail">
-                        <h4 class="my-3 mx-auto">Title</h4>
-                    </div>
-                    <div class="card col-sm-2 m-4 bg-dark">
-                        <img src="./src/images/video.jpg" alt="video" class="img-thumbnail">
-                        <h4 class="my-3 mx-auto">Title</h4>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- library Section End -->
+                <div class="container-fluid p-5">
+                    <h3>Playlists</h3>
+                    <div class="row">
+                        <div class="card col-sm-2 m-4 bg-dark">
+                            <img src="./src/images/music.jpg" alt="img" class="img-thumbnail">
+                            <h4 class="my-3 mx-auto">Title</h4>
+                        </div>
+                        <div class="card col-sm-2 m-4 bg-dark">
+                            <img src="./src/images/video.jpg" alt="video" class="img-thumbnail">
+                            <h4 class="my-3 mx-auto">Title</h4>
 
-    </main>
-    <!-- Main Section End -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- library Section End -->
+
+        </main>
+        <!-- Main Section End -->
 
 
 </body>
-<!-- <script src="./js/script.js" type="module"></script> -->
+
 
 </html>
