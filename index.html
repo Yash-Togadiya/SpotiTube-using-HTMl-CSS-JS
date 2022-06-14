@@ -23,39 +23,40 @@
     <script src="./js/script.js" type="module"></script>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-   
+
 </head>
 <script>
 
     function authen() {
-        
+
         // alert("page loaded successfulyy");
-            
-    let Email = localStorage.getItem("displayname");
-    console.log(Email);
+
+        let Email = localStorage.getItem("displayname");
+        console.log(Email);
         if (Email == null) {
             alert(" sign in first");
             // document.getElementById("body").style.display = "none";
 
         }
-        else if(Email != null){
+        else if (Email != null) {
             alert(" now you can access");
-            
+
         }
     }
 
     function authen1() {
-    let Email = localStorage.getItem("displayname");
-    console.log(Email);
+        let Email = localStorage.getItem("displayname");
+        console.log(Email);
         if (Email == null) {
             alert(" sign in first");
-             document.getElementsById("miniPlayer").disable  = true;
-             document.getElementsById("videoPlayer").disable = true;
+            document.getElementsById("miniPlayer").disable = true;
+            document.getElementsById("videoPlayer").disable = true;
 
         }
-       
+
     }
 </script>
+
 <body id="body" onload="authen()">
 
     <!-- Header Start -->
@@ -193,74 +194,68 @@
                     <div class="col-sm-2 mood-item mx-4">Mood</div>
                     <div class="col-sm-2 mood-item mx-4">Mood</div>
                     <div class="col-sm-2 mood-item mx-4">Mood</div>
-                    <!-- </div>
-                <div class="row"> -->
-                    <div class="col-sm-2 mood-item mx-4">Mood</div>
-                    <div class="col-sm-2 mood-item mx-4">Mood</div>
-                    <div class="col-sm-2 mood-item mx-4">Mood</div>
-                    <div class="col-sm-2 mood-item mx-4">Mood</div>
-                    <div class="col-sm-2 mood-item mx-4">Mood</div>
-                    <!-- </div>
-                <div class="row"> -->
-                    <div class="col-sm-2 mood-item mx-4">Mood</div>
-                    <div class="col-sm-2 mood-item mx-4">Mood</div>
-                    <div class="col-sm-2 mood-item mx-4">Mood</div>
-                    <div class="col-sm-2 mood-item mx-4">Mood</div>
-                    <div class="col-sm-2 mood-item mx-4">Mood</div>
                 </div>
             </div>
             <div class="container-fluid trending p-5">
                 <h2>Trending</h2>
                 <div class="row">
                     <div class="trending-songs col-md-3" onclick="authen1();playAudio(5);">
-                        <img src="./src/images/music.jpg" alt="img">
+                        <img src="https://docs.google.com/uc?export=download&id=1eRTPuuqvdKOyYuCaGWV3YOEVcGMVtgHP"
+                            alt="img">
                         <div>
-                            <h5>Title</h5>
-                            <p>By : Singer(s) name</p>
+                            <h5>Designer</h5>
+                            <p>By : Yo Yo Honey Singh, Guru Randhawa</p>
                         </div>
                     </div>
                     <div class="trending-songs col-md-3" onclick="authen1();playAudio(6);">
-                        <img src="./src/images/music.jpg" alt="img">
+                        <img src="https://docs.google.com/uc?export=download&id=1Fppf1eIbttQMw40rjTATPuyeHcrjFpqL"
+                            alt="img">
                         <div>
-                            <h5>Title</h5>
-                            <p>By : Singer(s) name</p>
+                            <h5>Dil Ibaadat</h5>
+                            <p>By : KK</p>
                         </div>
                     </div>
                     <div class="trending-songs col-md-3" onclick="authen1();playAudio(7);">
-                        <img src="./src/images/music.jpg" alt="img">
+                        <img src="https://docs.google.com/uc?export=download&id=1pBELc2mmN1buu_SC_x0DOuN1Q1A-TkMR"
+                            alt="img">
                         <div>
-                            <h5>Title</h5>
-                            <p>By : Singer(s) name</p>
+                            <h5>Dil Ki Gali</h5>
+                            <p>By : Shekhar Ravjiani, Katyayani</p>
                         </div>
                     </div>
                     <div class="trending-songs col-md-3" onclick="authen1();playAudio(8);">
-                        <img src="./src/images/music.jpg" alt="img">
+                        <img src="https://docs.google.com/uc?export=download&id=1WYguKHIy3_vjT41r_Ov4mLRfk10eq3qU"
+                            alt="img">
                         <div>
-                            <h5>Title</h5>
-                            <p>By : Singer(s) name</p>
+                            <h5>Falak Tu Garaj Tu</h5>
+                            <p>By : Ravi Basrur, Suchetha Basrur</p>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="trending-videos col-md-3" onclick="authen1();playVideo(5);">
-                        <img src="./src/images/video.jpg" alt="video">
-                        <h4 class="my-3 mx-auto">Title</h4>
-                        <p>By : Singer(s) name</p>
+                        <img src="https://docs.google.com/uc?export=download&id=1e0fn5h0yvtoGwRtPgrbfdtPk5MlHWrzK"
+                            alt="video">
+                        <h4 class="my-3 mx-auto">Kusu Kusu</h4>
+                        <p>By : Zahrah S Khan, Dev Negi</p>
                     </div>
                     <div class="trending-videos col-md-3" onclick="authen1();playVideo(6);">
-                        <img src="./src/images/video.jpg" alt="video">
-                        <h4 class="my-3 mx-auto">Title</h4>
-                        <p>By : Singer(s) name</p>
+                        <img src="https://docs.google.com/uc?export=download&id=1Kq1zmZv15NfLc651qnpVEwDktZ2l406h"
+                            alt="video">
+                        <h4 class="my-3 mx-auto">Blue Eyes</h4>
+                        <p>By : Yo Yo Honey Singh</p>
                     </div>
                     <div class="trending-videos col-md-3" onclick="authen1();playVideo(7);">
-                        <img src="./src/images/video.jpg" alt="video">
-                        <h4 class="my-3 mx-auto">Title</h4>
-                        <p>By : Singer(s) name</p>
+                        <img src="https://docs.google.com/uc?export=download&id=1JwtHAQvSYR4kjrS1J9fGWsMZUMh9oCQC"
+                            alt="video">
+                        <h4 class="my-3 mx-auto">Baarish Ban Jaana</h4>
+                        <p>By : Stebin Ben, Payal Dev</p>
                     </div>
                     <div class="trending-videos col-md-3" onclick="authen1();playVideo(8);">
-                        <img src="./src/images/video.jpg" alt="video">
-                        <h4 class="my-3 mx-auto">Title</h4>
-                        <p>By : Singer(s) name</p>
+                        <img src="https://docs.google.com/uc?export=download&id=1lZwMH70STny9KkWYMgAuxIo7_h-6uhCg"
+                            alt="video">
+                        <h4 class="my-3 mx-auto">Badri Ki Dulhania - Title Track</h4>
+                        <p>By : Monali Thakur, Dev Negi, Ikka Singh, Neha Kakkar</p>
                     </div>
                 </div>
             </div>
@@ -273,54 +268,62 @@
                 <h2>History</h2>
                 <div class="row">
                     <div class="history-songs col-md-3" onclick="authen1();playAudio(9);">
-                        <img src="./src/images/music.jpg" alt="img">
+                        <img src="https://docs.google.com/uc?export=download&id=1oapBykui5ivjB2Z0RzIUtisjVEWH8esZ"
+                            alt="img">
                         <div>
-                            <h5>Title</h5>
-                            <p>By : Singer(s) name</p>
+                            <h5>Jalwanuma</h5>
+                            <p>By : Javed Ali, Pooja Tiwari</p>
                         </div>
                     </div>
                     <div class="history-songs col-md-3" onclick="authen1();playAudio(10);">
-                        <img src="./src/images/music.jpg" alt="img">
+                        <img src="https://docs.google.com/uc?export=download&id=1f8lUl3E90ZMfBP5LuP6alTLkqPnlY_w-"
+                            alt="img">
                         <div>
-                            <h5>Title</h5>
-                            <p>By : Singer(s) name</p>
+                            <h5>Jordaar</h5>
+                            <p>By : Kapil Jangir</p>
                         </div>
                     </div>
                     <div class="history-songs col-md-3" onclick="authen1();playAudio(11);">
-                        <img src="./src/images/music.jpg" alt="img">
+                        <img src="https://docs.google.com/uc?export=download&id=14lcBJcVwOFKa84RCg4O1NWpkrpuKSrgb"
+                            alt="img">
                         <div>
-                            <h5>Title</h5>
-                            <p>By : Singer(s) name</p>
+                            <h5>Jug Jug Jive</h5>
+                            <p>By : Sachin–Jigar, Sachet–Parampara, Sachet Tandon</p>
                         </div>
                     </div>
                     <div class="history-songs col-md-3" onclick="authen1();playAudio(12);">
-                        <img src="./src/images/music.jpg" alt="img">
+                        <img src="https://docs.google.com/uc?export=download&id=19nl2bcO65wEsyTD-qJ5liUO-HAvzsPM2"
+                            alt="img">
                         <div>
-                            <h5>Title</h5>
-                            <p>By : Singer(s) name</p>
+                            <h5>Kachiyaan Kachiyaan</h5>
+                            <p>By : Jubin Nautiyal, Meet Bros</p>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="history-videos col-md-3"  onclick="authen1();playvideo(9);">
-                        <img src="./src/images/video.jpg" alt="video">
-                        <h4 class="my-3 mx-auto">Title</h4>
-                        <p>By : Singer(s) name</p>
+                    <div class="history-videos col-md-3" onclick="authen1();playVideo(9);">
+                        <img src="https://docs.google.com/uc?export=download&id=12zHl_fDIckfjn7iwEgMPku5Jf0avvwbx"
+                            alt="video">
+                        <h4 class="my-3 mx-auto">Dheere Dheere Se Meri Zindagi</h4>
+                        <p>By : Yo Yo Honet Singh</p>
                     </div>
-                    <div class="history-videos col-md-3"  onclick="authen1();playvideo(10);">
-                        <img src="./src/images/video.jpg" alt="video">
-                        <h4 class="my-3 mx-auto">Title</h4>
-                        <p>By : Singer(s) name</p>
+                    <div class="history-videos col-md-3" onclick="authen1();playVideo(10);">
+                        <img src="https://docs.google.com/uc?export=download&id=14GKEK-4gfuVRapfEsWoQ4TJ27CQeG1G8"
+                            alt="video">
+                        <h4 class="my-3 mx-auto">Dhokha</h4>
+                        <p>By : Arijit Singh</p>
                     </div>
-                    <div class="history-videos col-md-3"  onclick="authen1();playvideo(11);">
-                        <img src="./src/images/video.jpg" alt="video">
-                        <h4 class="my-3 mx-auto">Title</h4>
-                        <p>By : Singer(s) name</p>
+                    <div class="history-videos col-md-3" onclick="authen1();playVideo(11);">
+                        <img src="https://docs.google.com/uc?export=download&id=1byC9Tk53R__ByVJglGvUPA0yR3qojKKl"
+                            alt="video">
+                        <h4 class="my-3 mx-auto">Dil Galti Kar Baitha Hai</h4>
+                        <p>By : Jubin Nautiyal</p>
                     </div>
-                    <div class="history-videos col-md-3"  onclick="authen1();playvideo(12);">
-                        <img src="./src/images/video.jpg" alt="video">
-                        <h4 class="my-3 mx-auto">Title</h4>
-                        <p>By : Singer(s) name</p>
+                    <div class="history-videos col-md-3" onclick="authen1();playVideo(12);">
+                        <img src="https://docs.google.com/uc?export=download&id=1m4MzVdwxl1IeFU0lY4Uk5hcuuVcX0imI"
+                            alt="video">
+                        <h4 class="my-3 mx-auto">Jugnu</h4>
+                        <p>By : Badshah</p>
                     </div>
                 </div>
             </div>

@@ -159,6 +159,11 @@ body {
     padding: 0 20px !important;
 }
 
+.explore .trending-videos img {
+    height: 300px !important;
+    width: 300px !important;
+}
+
 /* Explore CSS End */
 
 /* Library CSS Start */
@@ -178,6 +183,11 @@ body {
 
 .library .history-videos {
     padding: 0 20px !important;
+}
+
+.library .history-videos img {
+    height: 300px !important;
+    width: 300px !important;
 }
 
 /* Library CSS End */
