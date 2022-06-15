@@ -23,7 +23,7 @@
     <script src="./js/script.js" type="module"></script>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 <script>
 
@@ -31,30 +31,45 @@
 
         // alert("page loaded successfulyy");
 
-        let Email = localStorage.getItem("displayname");
+        let Email = localStorage.getItem("email");
+
+
         console.log(Email);
+
         if (Email == null) {
-            alert(" sign in first");
-            // document.getElementById("body").style.display = "none";
+            swal(" sign in first!");
+            document.getElementById("logout-btn").style.display = "none"
+
 
         }
         else if (Email != null) {
-            alert(" now you can access");
+            swal(" now you can access");
+            document.getElementById("signingoogle").style.display="none";
+            
+
 
         }
     }
 
     function authen1() {
-        let Email = localStorage.getItem("displayname");
+        let Email = localStorage.getItem("email");
         console.log(Email);
         if (Email == null) {
-            alert(" sign in first");
+            swal(" sign in first");
             document.getElementsById("miniPlayer").disable = true;
             document.getElementsById("videoPlayer").disable = true;
 
         }
 
     }
+    function logout() {
+        localStorage.clear();
+        document.getElementById("logout-btn").style.display = "none";
+        swal("Logged out successfully!", "...please refresh the page!");
+
+        
+    }
+    
 </script>
 
 <body id="body" onload="authen()">
@@ -88,7 +103,7 @@
                     </form>
                     <form class="d-flex">
                         <a>
-                            <button class="btn btn-outline-light" id="logout-btn" type="button">Log out</button>
+                            <button class="btn btn-outline-light" id="logout-btn" type="button" onclick="logout()">Log out</button>
                         </a>
                     </form>
                 </div>

@@ -1,4 +1,7 @@
 {
     "liveServer.settings.port": 5501,
-    "type": "module"
+    "type": "module",
+    "dependencies": {
+        "sweetalert": "^2.1.2"
+    }
 }

@@ -4,7 +4,7 @@
 
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.2/firebase-app.js";
 import { getDatabase, set, ref, update } from "https://www.gstatic.com/firebasejs/9.8.2/firebase-database.js";
-import { getAuth, signInWithRedirect, GoogleAuthProvider, signInWithPopup, createUserWithEmailAndPassword, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.8.2/firebase-auth.js";
+import { getAuth, GoogleAuthProvider, signInWithPopup, createUserWithEmailAndPassword, signInWithEmailAndPassword , signOut} from "https://www.gstatic.com/firebasejs/9.8.2/firebase-auth.js";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -38,12 +38,19 @@ signingoogle.addEventListener('click', (e) => {
       const user = result.user;
       console.log(user);
       localStorage.setItem("displayname", user.displayName);
-      localStorage.setItem("displayname", user.email);
+      localStorage.setItem("email", user.email);
+      // localStorage.setItem("photoURL", user.photoURL);
  
-      let name = localStorage.getItem("displayname");
-      console.log(name);
-      alert(name + " you have sign in successfully");
+      let email = localStorage.getItem("email");
+      console.log(email);
+      // let photo;
+      // photo.src = localStorage.getItem("photoURL");
+      // alert(name + " you have sign in successfully");
+      swal("",email + " you have sign in successfully" , "success");
       
+      // console.log(photo.src);
+      document.getElementById("signingoogle").style.display="none";
+
     }).catch((error) => {
       // Handle Errors here.
       const errorCode = error.code;
@@ -113,7 +120,7 @@ signingoogle.addEventListener('click', (e) => {
 
   // });
 
-  const user = auth.currentUser;
+  // const user = auth.currentUser;
   // onAuthStateChanged(auth, (user) => {
   //   if (user) {
   //     // User is signed in, see docs for a list of available properties
@@ -127,20 +134,20 @@ signingoogle.addEventListener('click', (e) => {
   //     
   //   }
   // });
+  // const logout = document.querySelector('#logout-btn');
+  // logout.addEventListener('click',(e)=>{
+  //     e.preventDefault();
+  //    auth.signOut().then(() => {
+  //      // Sign-out successful.
+  //      alert('user loged out');
+  //    }).catch((error) => {
+  //      // An error happened.
+  //      const errorCode = error.code;
+  //      const errorMessage = error.message;
 
-  // // logout.addEventListener('click',(e)=>{
+  //         alert(errorMessage);
+  //    });
 
-  // //    signOut(auth).then(() => {
-  // //      // Sign-out successful.
-  // //      alert('user loged out');
-  // //    }).catch((error) => {
-  // //      // An error happened.
-  // //      const errorCode = error.code;
-  // //      const errorMessage = error.message;
-
-  // //         alert(errorMessage);
-  // //    });
-
-  // // });
+  // });
 
 });
