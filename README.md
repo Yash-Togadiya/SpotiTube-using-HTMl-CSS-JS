@@ -12,7 +12,7 @@ Project Type:
 Web Application
 
 Technology used:
-HTML,CSS,Bootstrap,Javascript and APIS
+HTML,CSS,Bootstrap,Javascript and google authentication (firebase)
 
 Description: Spotitube WebApplication consists of audio and video player mix up
 
