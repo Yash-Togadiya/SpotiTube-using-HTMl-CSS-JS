@@ -1,3 +1,8 @@
+/*navigation*/
+#img1{
+    border-radius: 50%;
+    height: 60px;
+}
 /* Body CSS Start */
 body {
     padding: 0;
@@ -9,6 +14,11 @@ body {
 /* Header CSS Start */
 .navbar {
     font-size: 1.5em !important;
+    position:fixed !important;
+    z-index: 5 !important;
+    width: 100%;
+    /* opacity: 0.5 !important; */
+    background-color: #505f5f !important;
 }
 
 .navbar-brand {
@@ -20,7 +30,7 @@ body {
 }
 
 #logout-btn {
-    /* display: none; */
+    float: right !important;
 }
 
 /* Header CSS End */
