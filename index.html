@@ -24,7 +24,7 @@
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <link rel="icon" type="image/x-icon" href="/logo/Screenshot 2022-06-15 160517.png">
+    <link rel="icon" type="image/x-icon" href="/logo/fevikon.png">
 
 </head>
 <script>
@@ -39,15 +39,15 @@
         console.log(Email);
 
         if (Email == null) {
-            swal(" sign in first!");
+            swal.fire("sign in first!");
             document.getElementById("logout-btn").style.display = "none"
 
 
         }
         else if (Email != null) {
             swal(" now you can access");
-            document.getElementById("signingoogle").style.display="none";
-            
+            document.getElementById("signingoogle").style.display = "none";
+
 
 
         }
@@ -69,9 +69,9 @@
         document.getElementById("logout-btn").style.display = "none";
         swal("Logged out successfully!", "...please refresh the page!");
 
-        
+
     }
-    
+
 </script>
 
 <body id="body" onload="authen()">
@@ -80,7 +80,8 @@
     <header class="header" id="header">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html" ><img id ="img1" src="./logo/Screenshot 2022-06-15 160517.png" alt="spotitube"></img></a>
+                <a class="navbar-brand" href="index.html"><img id="img1" src="./logo/logo.png"
+                        alt="spotitube"></img></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -105,7 +106,8 @@
                     </form>
                     <form class="d-flex">
                         <a>
-                            <button class="btn btn-outline-dark" id="logout-btn" type="button" onclick="logout()">Log out</button>
+                            <button class="btn btn-outline-dark" id="logout-btn" type="button" onclick="logout()">Log
+                                out</button>
                         </a>
                     </form>
                 </div>

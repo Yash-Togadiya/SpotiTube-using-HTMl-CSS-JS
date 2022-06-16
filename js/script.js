@@ -8,7 +8,7 @@ import { getAuth, GoogleAuthProvider, signInWithPopup, createUserWithEmailAndPas
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
-const firebaseConfig = {
+const firebaseConfig = {        
   apiKey: "AIzaSyD5fZnkHzSiYtq-TCCx3sZujzaE8NvPxBo",
   authDomain: "signin-trial02.firebaseapp.com",
   projectId: "signin-trial02",
