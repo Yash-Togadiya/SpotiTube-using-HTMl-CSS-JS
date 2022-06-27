@@ -59,18 +59,16 @@
         if (Email == null) {
             swal(" sign in first");
             document.getElementsById("miniPlayer").disable = true;
-            document.getElementsById("videoPlayer").disable = true;
-
+            document.getElementsById("videoPlayer").disable = true;           
+      
         }
 
     }
     function logout() {
         localStorage.clear();
         document.getElementById("logout-btn").style.display = "none";
-        swal("Logged out successfully!", "...please refresh the page!");
-
-
-    }
+        swal("Logged out successfully!", "...please refresh the page!"); 
+}
 
 </script>
 
@@ -117,7 +115,7 @@
     <!-- Header End -->
 
     <!-- Main Section Start -->
-    <main>
+    <main>    
 
         <div id="miniPlayer"></div>
         <div id="videoPlayer"></div>
